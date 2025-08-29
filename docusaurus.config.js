@@ -6,7 +6,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "SpaceLinx MES",
   tagline: "Smart Manufacturing Execution System for Aerospace & Beyond",
-  favicon: "img/favicon.ico",
+  favicon: "img/spacelinx-icon.png",
 
   future: {
     v4: true,
