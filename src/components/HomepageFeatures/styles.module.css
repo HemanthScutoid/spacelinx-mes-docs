@@ -1,0 +1,22 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+.featureLogo {
+  background-color: #0d1b2a;
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.featureLogo img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.6));
+}
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
