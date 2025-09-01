@@ -27,7 +27,7 @@ At this stage, the ECO is saved as a **Draft**.
 
 ### 2. Editing / Review Stage
 
-Once the ECO is created, users can open it to add more details:
+Once the ECO is created, users can open it by clicking on any field from ECO table like ECO number,name etc. from ECO page to see more details:
 
 - **Effected Parts** – Add or update the list of parts impacted by the change.
 - **Upload Documents** – Attach supporting files such as design documents, reports, or approvals.
