@@ -1,84 +1,66 @@
-# Create Machine
+# 🏭 Create Machine
 
-The **Create Machine** page allows users to add new machines into the system. Machines are uniquely identified by their **machine number** and can be grouped by **machine type**. This ensures consistency, prevents duplicate entries, and allows you to manage machines efficiently.
-
----
-
-## Accessing the Page
-
-- Go to the **Machines** section from the sidebar.
-- Click **+ Add New** to open the **Create Machine** form.
+The **Create Machine** form allows users to add new machines into the system.  
+It validates key fields, prevents duplicate machine numbers, and allows adding new machine types on the fly.
 
 ---
 
-## Fields in the Form
+## 📍 Accessing the Page
 
-When adding a new machine, you must provide the following details:
-
-1. **Machine Number**
-
-   - A unique identifier for the machine.
-   - Cannot be left blank.
-   - Must be less than 100 characters.
-   - If the machine number already exists, the system will show an error:  
-     ❌ _The Machine Number Already Exists_
-
-2. **Machine Name**
-
-   - The descriptive name of the machine.
-   - Cannot be left blank.
-   - Must only contain letters, numbers, and spaces.
-   - Maximum length: 250 characters.
-   - Invalid entries (e.g., special symbols) will trigger an error.
-
-3. **Machine Type**
-   - Select a type from the dropdown list.
-   - If the required type doesn’t exist, you can type a new one and select **Add "YourType"** to create it instantly.
-   - This field is mandatory.
+- Navigate to the **Machines** section from the sidebar.
+- Click **+ Add New** → the **Create Machine** form opens in a flyout.
 
 ---
 
-## Actions
+## 📋 Fields in the Form
 
-- **Create**  
-  Saves the machine details into the system.
-
-  - If successful, you will see a confirmation message:  
-    ✅ _Machine Created Successfully!_
-  - The new machine will then appear in the machine list.
-
-- **Cancel**  
-  Closes the form without saving changes.
+| Field              | Description                                                                                                                |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| **Machine Number** | Unique identifier for the machine. Required. Checked against existing machines for duplicates. Max length: 100 characters. |
+| **Machine Name**   | Descriptive name of the machine. Required. Letters, numbers, and spaces only. Max length: 250 characters.                  |
+| **Machine Type**   | Select from existing machine types. Required. You can also **add a new type** dynamically if it doesn’t exist.             |
 
 ---
 
-## Validation Rules
+## ✅ Validation Rules
 
-- All three fields are required.
-- **Machine Number** must be unique.
-- **Machine Name** only allows letters, spaces, and numbers.
-- Error messages will display under the field if rules are violated.
-
----
-
-## Alerts and Notifications
-
-- All actions trigger notifications for feedback.
-- Example alerts:
-  - **Success:** Machine created successfully.
-  - **Error:** Couldn’t create machine / failed to fetch machine types.
+| Field              | Rules                                                                                                    |
+| ------------------ | -------------------------------------------------------------------------------------------------------- |
+| **Machine Number** | - Required <br /> - Maximum 100 characters <br /> - Must be unique (system checks automatically on blur) |
+| **Machine Name**   | - Required <br /> - Letters, numbers, and spaces only <br /> - Maximum 250 characters                    |
+| **Machine Type**   | - Required <br /> - Choose from list or create a new type dynamically                                    |
 
 ---
 
-## Example Workflow
+## 🚀 Actions
+
+- **Create** → Saves the machine if all validations pass.
+  - ✅ Success alert: _"Machine Created Successfully!"_
+  - ❌ Error alert: _"Couldn't Create Machine!"_
+- **Cancel** → Closes the form without saving changes.
+
+---
+
+## 🔔 Alerts & Notifications
+
+- Field-specific validation errors appear **below the corresponding input**.
+- Global alerts appear via **FlyoutAlerts**:
+  - **Error:** `"Couldn't fetch Machine Types...!"` / `"Couldn't Fetch Machines...!"`
+  - **Success:** `"Machine Type Added Successfully!"`
+
+---
+
+## 🧩 Example Workflow
 
 1. Click **+ Add New** from the Machines page.
-2. Enter a unique **Machine Number** (e.g., `MCN-102`).
-3. Enter the **Machine Name** (e.g., `Drill Machine`).
-4. Choose an existing **Machine Type** (e.g., _Cutting_), or create a new one.
+2. Enter **Machine Number** → e.g., `MCH-101`.
+   - If the number already exists, an error appears immediately.
+3. Enter **Machine Name** → e.g., `"Drill Press"`.
+4. Select **Machine Type** → e.g., `"Cutting Tool"`.
+   - If not available, type a new type and select **Add "New Type"**.
 5. Click **Create**.
-6. The machine will be added to the list and available for future assignments.
+6. ✅ A success alert confirms creation, and the new machine appears in the main list.
 
 ---
 
-✨ With this feature, machine management becomes structured, prevents duplicates, and allows easy categorization by type.
+✨ This workflow ensures validated, duplicate-free machine creation and allows dynamic management of machine types.

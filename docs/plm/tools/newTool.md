@@ -1,82 +1,66 @@
-# Create Tool
+# 🛠️ Create Tool
 
-The **Create Tool** page allows users to add new tools into the system. This is useful for managing tool inventory, associating them with tool types, and ensuring no duplicate tool numbers are created.
-
----
-
-## Accessing the Page
-
-- Navigate to the **Tools** section from the sidebar.
-- Click on **+ Add New** to open the **Create Tool** form.
+The **Create Tool** form allows users to add a new tool into the system.  
+It validates key fields, prevents duplicate tool numbers, and lets you add new tool types on the fly.
 
 ---
 
-## Fields in the Form
+## 📍 How to Access
 
-When creating a new tool, the following details are required:
-
-1. **Tool Number**
-
-   - A unique identifier for the tool.
-   - Cannot be left empty.
-   - Must be less than 100 characters.
-   - The system will check for duplicates automatically. If the number already exists, an error message will appear.
-
-2. **Tool Name**
-
-   - The descriptive name of the tool.
-   - Cannot be left empty.
-   - Must be less than 250 characters.
-
-3. **Tool Type**
-   - Select the type of tool from the available list.
-   - If the required type does not exist, you can type a new one and select **Add "New Type"** to create it instantly.
-   - This field is mandatory.
+- Navigate to the **Tools** section in the sidebar.
+- Click **+ Add New** → the **Create Tool** form will appear in a flyout.
 
 ---
 
-## Actions
+## 📋 Fields in the Form
 
-- **Create**  
-  Saves the new tool and adds it to the list.
-
-  - If successful, you will see a confirmation message:  
-    ✅ _Tool Created Successfully!_
-
-- **Cancel**  
-  Closes the form without saving changes.
+| Field           | Description                                                                                                     |
+| --------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Tool Number** | Unique identifier for the tool. Required. Checked against existing tools for duplicates. Max length: 100 chars. |
+| **Tool Name**   | Descriptive name of the tool. Required. Max length: 250 chars.                                                  |
+| **Tool Type**   | Select from existing tool types. Required. You can also **add a new tool type** if it doesn’t exist.            |
 
 ---
 
-## Validation Rules
+## ✅ Validation Rules
 
-- All fields are mandatory.
-- Duplicate tool numbers are not allowed.
-- Error messages will be shown if:
-  - The tool number already exists.
-  - Any required field is missing.
-  - Length limits are exceeded.
-
----
-
-## Alerts and Notifications
-
-- All actions (success, error, validation issues) will display notifications at the bottom of the form.
-- Example alerts:
-  - **Success:** Tool created successfully.
-  - **Error:** Couldn’t create tool / failed to fetch tool types.
+| Field           | Rules                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------ |
+| **Tool Number** | - Required <br /> - Maximum 100 characters <br /> - Must be unique (system checks automatically) |
+| **Tool Name**   | - Required <br /> - Maximum 250 characters                                                       |
+| **Tool Type**   | - Required <br /> - Choose from list or create new one                                           |
 
 ---
 
-## Example Workflow
+## 🚀 Actions
 
-1. Click **+ Add New** from the Tools page.
-2. Enter a unique **Tool Number**.
-3. Enter the **Tool Name**.
-4. Select an existing **Tool Type** or create a new one.
+- **Create** → Saves the tool if all validations pass.
+  - ✅ Success alert: _"Tool Created Successfully..!"_
+  - ❌ Error alert: _"Couldn't Create Tool...!"_
+- **Cancel** → Closes the form without saving.
+
+---
+
+## 🔔 Alerts & Notifications
+
+- Validation errors appear **below the fields** (e.g., "Tool Name is required").
+- Flyout alerts display global messages at the bottom:
+  - **Error:** `"Couldn't fetch Tool Types...!"` / `"Couldn't Fetch Tools...!"`
+  - **Success:** `"Tool Type Added Successfully..!"`
+
+---
+
+## 🧩 Example Workflow
+
+1. Click **+ Add New** in the Tools section.
+2. Enter **Tool Number** → e.g., `DRL-101`.
+   - If the number already exists, the system shows an error immediately.
+3. Enter **Tool Name** → e.g., `"Drill Machine"`.
+4. Select **Tool Type** → e.g., `"Cutting Tool"`.
+   - If not available, type a new one and select **Add "New Type"**.
 5. Click **Create**.
-6. The new tool will appear in the main tools list.
+6. ✅ A success alert confirms, and the new tool appears in the tools list.
 
 ---
 
-✨ With this feature, tool management becomes faster, prevents duplicates, and allows flexible addition of tool types.
+✨ With this form, tool creation is quick, validated, and ensures no duplicates in the system.

@@ -50,16 +50,40 @@ const sidebars = {
       type: "category",
       label: "Manufacturing",
       items: [
-        { type: "doc", id: "manufacturing/products", label: "Products" },
+        {
+          type: "category",
+          label: "Products",
+          items: [
+            {
+              type: "doc",
+              id: "manufacturing/products/products",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/products/newProduct",
+              label: "New Product",
+            },
+          ],
+        },
         {
           type: "category",
           label: "Guides",
           items: [
-            { type: "doc", id: "manufacturing/guides", label: "Overview" },
             {
               type: "doc",
-              id: "manufacturing/guidedetails",
+              id: "manufacturing/guides/guides",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/guides/guidedetails",
               label: "Guide Details",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/guides/newGuide",
+              label: "Create Guide",
             },
           ],
         },
@@ -67,24 +91,43 @@ const sidebars = {
           type: "category",
           label: "Work Orders",
           items: [
-            { type: "doc", id: "manufacturing/workOrders", label: "Overview" },
             {
               type: "doc",
-              id: "manufacturing/workOrderDetails",
+              id: "manufacturing/workorders/workOrders",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/workorders/workOrderDetails",
               label: "Work Order Details",
             },
             {
               type: "doc",
-              id: "manufacturing/workOrderSteps",
+              id: "manufacturing/workorders/workOrderSteps",
               label: "Work Order Steps",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/workorders/newWorkOrder",
+              label: "Create Workorder",
             },
           ],
         },
-
         {
-          type: "doc",
-          id: "manufacturing/materialkits",
+          type: "category",
           label: "Material Kits",
+          items: [
+            {
+              type: "doc",
+              id: "manufacturing/materialkits/materialkits",
+              label: "Material Kits",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/materialkits/newMaterialKit",
+              label: "Create Material Kit",
+            },
+          ],
         },
       ],
     },

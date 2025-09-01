@@ -12,16 +12,19 @@ The **New Part** page allows you to create and register new parts in the system.
 
 2. **Fill in Required Fields**
 
-   - **Part Type** → Choose from available part categories.
-   - **Part Name** → Enter a descriptive name (max 250 characters).
-   - **Make / Buy** → Select whether the part is manufactured internally (**Make**) or purchased externally (**Buy**).
-   - **Manufacturing Part Number** → Required if "Buy" is selected.
-   - **Unit of Measure (UOM)** → Select the measurement unit (defaults to _Each (EA)_).
-   - **Serial Number Required** → Choose **Yes** or **No**.
+| Field                         | Description                                                                                      | Notes                                |
+| ----------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------ |
+| **Part Type**                 | Choose from available part categories.                                                           | Required                             |
+| **Part Name**                 | Enter a descriptive name.                                                                        | Max 250 characters                   |
+| **Make / Buy**                | Select whether the part is manufactured internally (**Make**) or purchased externally (**Buy**). | Required                             |
+| **Manufacturing Part Number** | Unique manufacturing number for purchased parts.                                                 | Required only if **Buy** is selected |
+| **Unit of Measure (UOM)**     | Select the measurement unit.                                                                     | Defaults to **Each (EA)**            |
+| **Serial Number Required**    | Choose **Yes** or **No**.                                                                        | Required                             |
 
 3. **Optional Fields**
-   - **Unit Price** → Specify the part’s cost per unit (if applicable).
-   - **Attach Image** → Upload an image from your device or capture a photo directly using your camera.
+
+- **Unit Price** → Specify the part’s cost per unit (if applicable).
+- **Attach Image** → Upload an image from your device or capture a photo directly using your camera.
 
 ---
 
