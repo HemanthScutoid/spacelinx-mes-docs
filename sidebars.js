@@ -12,8 +12,8 @@ const sidebars = {
           label: "Parts",
           items: [
             { type: "doc", id: "plm/parts/parts", label: "Overview" },
-            { type: "doc", id: "plm/parts/editPart", label: "Edit Part" },
             { type: "doc", id: "plm/parts/newPart", label: "Create Part" },
+            { type: "doc", id: "plm/parts/editPart", label: "Edit Part" },
           ],
         },
         {
