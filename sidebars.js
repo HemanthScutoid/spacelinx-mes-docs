@@ -11,13 +11,39 @@ const sidebars = {
           type: "category",
           label: "Parts",
           items: [
-            { type: "doc", id: "plm/parts", label: "Overview" },
-            { type: "doc", id: "plm/editpart", label: "Edit Part" },
+            { type: "doc", id: "plm/parts/parts", label: "Overview" },
+            { type: "doc", id: "plm/parts/editPart", label: "Edit Part" },
+            { type: "doc", id: "plm/parts/newPart", label: "Create Part" },
           ],
         },
-        { type: "doc", id: "plm/eco", label: "ECO" },
-        { type: "doc", id: "plm/tools", label: "Tools" },
-        { type: "doc", id: "plm/machines", label: "Machines" },
+        {
+          type: "category",
+          label: "ECO",
+          items: [
+            { type: "doc", id: "plm/eco/eco", label: "Overview" },
+            { type: "doc", id: "plm/eco/newEco", label: "Create ECO" },
+          ],
+        },
+        {
+          type: "category",
+          label: "Tools",
+          items: [
+            { type: "doc", id: "plm/tools/tools", label: "Overview" },
+            { type: "doc", id: "plm/tools/newTool", label: "Create Tool" },
+          ],
+        },
+        {
+          type: "category",
+          label: "Machines",
+          items: [
+            { type: "doc", id: "plm/machines/machines", label: "Overview" },
+            {
+              type: "doc",
+              id: "plm/machines/newMachine",
+              label: "Create Machine",
+            },
+          ],
+        },
       ],
     },
     {
@@ -25,8 +51,36 @@ const sidebars = {
       label: "Manufacturing",
       items: [
         { type: "doc", id: "manufacturing/products", label: "Products" },
-        { type: "doc", id: "manufacturing/guides", label: "Guides" },
-        { type: "doc", id: "manufacturing/workOrders", label: "Work Orders" },
+        {
+          type: "category",
+          label: "Guides",
+          items: [
+            { type: "doc", id: "manufacturing/guides", label: "Overview" },
+            {
+              type: "doc",
+              id: "manufacturing/guidedetails",
+              label: "Guide Details",
+            },
+          ],
+        },
+        {
+          type: "category",
+          label: "Work Orders",
+          items: [
+            { type: "doc", id: "manufacturing/workOrders", label: "Overview" },
+            {
+              type: "doc",
+              id: "manufacturing/workOrderDetails",
+              label: "Work Order Details",
+            },
+            {
+              type: "doc",
+              id: "manufacturing/workOrderSteps",
+              label: "Work Order Steps",
+            },
+          ],
+        },
+
         {
           type: "doc",
           id: "manufacturing/materialkits",

@@ -34,3 +34,6 @@
 .navbar__link {
   color: #1a8870 !important; /* replace with exact hover green you see */
 }
+.footer {
+  background-color: #1b1b1d;
+}

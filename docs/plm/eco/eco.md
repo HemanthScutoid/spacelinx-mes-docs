@@ -1,8 +1,3 @@
----
-id: eco
-title: Engineering Change Order (ECO)
----
-
 # Engineering Change Order (ECO)
 
 The **Engineering Change Order (ECO)** module allows teams to propose, track, and approve changes to parts, designs, or processes.  
