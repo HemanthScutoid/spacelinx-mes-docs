@@ -37,3 +37,8 @@
 .footer {
   background-color: #1b1b1d;
 }
+.navbar__link--active {
+  color: #ff6600 !important ;
+  font-weight: bold;
+  border-bottom: 2px solid #ff6600;
+}

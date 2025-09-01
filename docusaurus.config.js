@@ -43,42 +43,48 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: "Home",
-
-        items: [
-          {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Docs",
-          },
-        ],
-      },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Modules",
-            items: [
-              { label: "PLM", to: "/plm/parts" },
-              { label: "Manufacturing", to: "/manufacturing/products" },
-              { label: "Procurement", to: "/procurement/purchaseorders" },
-              { label: "Inventory", to: "/inventory/partsInventory" },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} XDLINX SPACE LABS. All rights reserved.`,
-      },
-
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+  themeConfig: {
+    colorMode: {
+      defaultMode: "dark", // 👈 makes dark mode the default
+      disableSwitch: false, // keep the toggle if you want users to switch
+      respectPrefersColorScheme: false, // ignore system preference
+    },
+    navbar: {
+      items: [
+        {
+          to: "/", // route for Home
+          label: "Home",
+          position: "left",
+          activeBaseRegex: "^/$", // ensures Home highlights on root path
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Docs",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Modules",
+          items: [
+            { label: "PLM", to: "/plm/parts" },
+            { label: "Manufacturing", to: "/manufacturing/products" },
+            { label: "Procurement", to: "/procurement/purchaseorders" },
+            { label: "Inventory", to: "/inventory/partsInventory" },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} XDLINX SPACE LABS. All rights reserved.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  },
 };
 
 export default config;
