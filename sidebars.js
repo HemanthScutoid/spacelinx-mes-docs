@@ -137,7 +137,7 @@ const sidebars = {
       items: [
         {
           type: "doc",
-          id: "procurement/purchaseorders",
+          id: "procurement/purchaseorders/purchaseorders",
           label: "Purchase Orders",
         },
         {
