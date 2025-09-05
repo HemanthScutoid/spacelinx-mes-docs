@@ -14,6 +14,7 @@ const sidebars = {
             { type: "doc", id: "plm/parts/parts", label: "Overview" },
             { type: "doc", id: "plm/parts/newPart", label: "Create Part" },
             { type: "doc", id: "plm/parts/editPart", label: "Edit Part" },
+            { type: "doc", id: "plm/parts/bom", label: "BOM" },
           ],
         },
         {
@@ -136,19 +137,49 @@ const sidebars = {
       label: "Procurement",
       items: [
         {
-          type: "doc",
-          id: "procurement/purchaseorders/purchaseorders",
+          type: "category",
           label: "Purchase Orders",
+          items: [
+            {
+              type: "doc",
+              id: "procurement/purchaseorders/purchaseorders",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "procurement/purchaseorders/newPurchaseOrder",
+              label: "Create New PO",
+            },
+            {
+              type: "doc",
+              id: "procurement/purchaseorders/purchaseOrderDetails",
+              label: "PO Details",
+            },
+            {
+              type: "doc",
+              id: "procurement/purchaseorders/editPurchaseOrder",
+              label: "PO Line Items",
+            },
+          ],
         },
         {
           type: "doc",
           id: "procurement/goodsreceipts",
           label: "Goods Receipts",
         },
-        { type: "doc", id: "procurement/requisitions", label: "Requisitions" },
-        { type: "doc", id: "procurement/vendors", label: "Vendors" },
+        {
+          type: "doc",
+          id: "procurement/requisitions",
+          label: "Requisitions",
+        },
+        {
+          type: "doc",
+          id: "procurement/vendors",
+          label: "Vendors",
+        },
       ],
     },
+
     {
       type: "category",
       label: "Inventory",
