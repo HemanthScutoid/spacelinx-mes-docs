@@ -27,19 +27,7 @@ const config = {
     locales: ["en"],
   },
 
-  // Add webpack optimizations for faster builds
-  webpack: {
-    jsLoader: (isServer) => ({
-      loader: require.resolve("esbuild-loader"),
-      options: {
-        loader: "tsx",
-        format: isServer ? "cjs" : undefined,
-        target: isServer ? "node12" : "es2017",
-      },
-    }),
-  },
-
-  // Remove bundle analyzer config - not a valid top-level option
+  // Webpack optimizations removed - esbuild-loader not installed
 
   presets: [
     [
