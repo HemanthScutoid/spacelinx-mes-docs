@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+  # Increase build timeout and memory
+  NODE_OPTIONS = "--max_old_space_size=4096"
+
+# Optimize build performance
+[[build.processing]]
+  skip_processing = false
+
+# Headers for authentication redirects (if using MSAL)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"

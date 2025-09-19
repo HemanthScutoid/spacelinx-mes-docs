@@ -27,6 +27,20 @@ const config = {
     locales: ["en"],
   },
 
+  // Add webpack optimizations for faster builds
+  webpack: {
+    jsLoader: (isServer) => ({
+      loader: require.resolve("esbuild-loader"),
+      options: {
+        loader: "tsx",
+        format: isServer ? "cjs" : undefined,
+        target: isServer ? "node12" : "es2017",
+      },
+    }),
+  },
+
+  // Remove bundle analyzer config - not a valid top-level option
+
   presets: [
     [
       "classic",
@@ -39,7 +53,10 @@ const config = {
           // Optimization for build speed
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
-          includeCurrentVersion: true, // if versioned docs
+          includeCurrentVersion: true,
+
+          // Reduce processing time
+          editUrl: undefined, // Disable edit links to reduce processing
         },
         pages: {
           path: "src/pages",
@@ -51,9 +68,20 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+
+        // Disable sitemap generation during build (can be done post-build)
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
       }),
     ],
   ],
+
+  // Add client modules optimization
+  clientModules: [],
 
   themeConfig: {
     colorMode: {
