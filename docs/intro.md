@@ -2,46 +2,47 @@
 sidebar_position: 1
 ---
 
-<!-- # Tutorial Intro -->
+# SpaceLinx MES Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the SpaceLinx MES (Manufacturing Execution System) documentation. This comprehensive system is designed for aerospace manufacturing and advanced production environments.
 
-## Getting Started
+## System Overview
 
-Get started by **creating a new site**.
+SpaceLinx MES provides end-to-end manufacturing execution capabilities, integrating product lifecycle management, manufacturing operations, procurement, and inventory management.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Main Modules
 
-<!-- ### What you'll need -->
+### 🔧 PLM (Product Lifecycle Management)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Manage your product data throughout the entire lifecycle:
 
-<!-- ## Generate a new site -->
+- **Parts Management** - Create, edit, and manage parts and BOMs
+- **ECO (Engineering Change Orders)** - Handle design changes systematically
+- **Tools & Machines** - Manage manufacturing resources
 
-Generate a new Docusaurus site using the **classic template**.
+### 🏭 Manufacturing
 
-The classic template will automatically be added to your project after you run the command:
+Execute and monitor production operations:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- **Products** - Define and manage manufactured products
+- **Manufacturing Guides** - Step-by-step production instructions
+- **Work Orders** - Plan and track production jobs
+- **Material Kits** - Manage kitted materials for production
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 📋 Procurement
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Handle purchasing and vendor management:
 
-## Start your site
+- **Purchase Orders** - Create and manage supplier orders
+- **Goods Receipts** - Process incoming materials
+- **Requisitions** - Internal material requests
+- **Vendors** - Supplier information and management
 
-Run the development server:
+### 📦 Inventory
 
-```bash
-cd my-website
-npm run start
-```
+Track and manage all inventory:
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **Parts Inventory** - Component and raw material tracking
+- **Goods Inventory** - Finished product inventory
+- **Services Inventory** - Service-based inventory items
+- **Stock Movements** - Track inventory transactions

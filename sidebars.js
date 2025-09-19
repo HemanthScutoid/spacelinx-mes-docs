@@ -3,6 +3,12 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
+    // Add the intro document at the top
+    {
+      type: "doc",
+      id: "intro",
+      label: "Introduction",
+    },
     {
       type: "category",
       label: "PLM",

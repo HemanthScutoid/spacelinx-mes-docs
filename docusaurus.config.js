@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "SpaceLinx MES",
-  tagline: "Smart Manufacturing Execution System for Aerospace & Beyond",
+  tagline: "Smart Manufacturing Execution System for Aerospace & Beyondddddd",
   favicon: "img/spacelinx-icon.png",
 
   future: {
@@ -15,8 +15,8 @@ const config = {
   url: "https://your-spacelinx-site.example.com",
   baseUrl: "/",
 
-  organizationName: "spacelinx", // Replace with your org/user
-  projectName: "mes-docs", // Replace with your repo name
+  organizationName: "spacelinx",
+  projectName: "mes-docs",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -33,9 +33,13 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          routeBasePath: "/", // 👈 makes docs the homepage
+          routeBasePath: "/docs",
         },
-        blog: false, // 👈 no blog for now
+        pages: {
+          path: "src/pages",
+          routeBasePath: "/",
+        },
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -45,17 +49,18 @@ const config = {
 
   themeConfig: {
     colorMode: {
-      defaultMode: "dark", // 👈 makes dark mode the default
-      disableSwitch: false, // keep the toggle if you want users to switch
-      respectPrefersColorScheme: false, // ignore system preference
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
     },
     navbar: {
+      hideOnScroll: false,
       items: [
         {
-          to: "/", // route for Home
+          to: "/",
           label: "Home",
           position: "left",
-          activeBaseRegex: "^/$", // ensures Home highlights on root path
+          activeBaseRegex: "^/$",
         },
         {
           type: "docSidebar",
@@ -65,16 +70,17 @@ const config = {
         },
       ],
     },
+
     footer: {
       style: "dark",
       links: [
         {
           title: "Modules",
           items: [
-            { label: "PLM", to: "/plm/parts" },
-            { label: "Manufacturing", to: "/manufacturing/products" },
-            { label: "Procurement", to: "/procurement/purchaseorders" },
-            { label: "Inventory", to: "/inventory/partsInventory" },
+            { label: "PLM", to: "/docs/plm/parts" },
+            { label: "Manufacturing", to: "/docs/manufacturing/products" },
+            { label: "Procurement", to: "/docs/procurement/purchaseorders" },
+            { label: "Inventory", to: "/docs/inventory/partsInventory" },
           ],
         },
       ],
