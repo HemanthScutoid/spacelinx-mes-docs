@@ -2,9 +2,9 @@ import { PublicClientApplication } from "@azure/msal-browser";
 
 const msalInstance = new PublicClientApplication({
   auth: {
-    clientId: "748aa650-05ea-49d6-9c2f-aa0c83d2a024",
+    clientId: "36204b2f-bfd1-4820-a158-96d3d877eb68",
     authority: "https://login.microsoftonline.com/common",
-    redirectUri: "/",
+    redirectUri: "https://spacelinx-mes-docss.netlify.app/docs/intro",
     postLogoutRedirectUri: "/",
   },
   cache: {
