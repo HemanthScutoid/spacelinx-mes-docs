@@ -1,10 +1,10 @@
-import { PublicClientApplication } from "@azure/msal-browser";
+import { PublicClientApplication, LogLevel } from "@azure/msal-browser";
 
 const msalInstance = new PublicClientApplication({
   auth: {
-    clientId: "36204b2f-bfd1-4820-a158-96d3d877eb68",
+    clientId: "748aa650-05ea-49d6-9c2f-aa0c83d2a024",
     authority: "https://login.microsoftonline.com/common",
-    redirectUri: "http://localhost:3000/docs/intro",
+    redirectUri: "/",
     postLogoutRedirectUri: "/",
   },
   cache: {
@@ -14,7 +14,9 @@ const msalInstance = new PublicClientApplication({
   system: {
     loggerOptions: {
       loggerCallback: (level, message, containsPii) => {
-        if (containsPii) return;
+        if (containsPii) {
+          return;
+        }
       },
     },
   },
