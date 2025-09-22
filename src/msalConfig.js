@@ -4,7 +4,7 @@ const msalInstance = new PublicClientApplication({
   auth: {
     clientId: "36204b2f-bfd1-4820-a158-96d3d877eb68",
     authority: "https://login.microsoftonline.com/common",
-    redirectUri: "https://spacelinx-mes-docss.netlify.app/docs/intro",
+    redirectUri: "http://localhost:3000/docs/intro",
     postLogoutRedirectUri: "/",
   },
   cache: {
