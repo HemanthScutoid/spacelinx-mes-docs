@@ -8,12 +8,11 @@ export default function NavbarWrapper(props) {
   const isLoggedIn = accounts.length > 0;
   const existingItems = props.navbar?.items || [];
 
-  // Create a new navbar config with conditional items
+  // Navbar config with conditional Docs link
   const navbarConfig = {
     ...props.navbar,
     items: [
       ...existingItems,
-
       ...(isLoggedIn
         ? [
             {
@@ -38,16 +37,28 @@ export default function NavbarWrapper(props) {
     >
       <OriginalNavbar {...props} navbar={navbarConfig} />
 
-      <div style={{ marginRight: "16px" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "12px",
+          marginRight: "16px",
+        }}
+      >
+        {/* Show email if logged in */}
+        {isLoggedIn && (
+          <span
+            style={{ color: "var(--ifm-color-primary)", fontWeight: "bold" }}
+          >
+            {accounts[0].username}
+          </span>
+        )}
+
         <button
           className="LoginButton"
-          style={{}}
           onClick={() => {
-            if (isLoggedIn) {
-              instance.logoutRedirect();
-            } else {
-              instance.loginRedirect();
-            }
+            if (isLoggedIn) instance.logoutRedirect();
+            else instance.loginRedirect();
           }}
         >
           {isLoggedIn ? "Logout" : "Login"}

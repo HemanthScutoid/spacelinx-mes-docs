@@ -1,5 +1,24 @@
 # 📖 Guides Module – User Guide
 
+A **Guide** is a documented instruction, reference, or work procedure that helps teams follow standardized processes in manufacturing, assembly, or maintenance.  
+Guides ensure that **work is performed correctly, consistently, and safely**, while providing traceability for audits and process improvements.
+
+### Why We Use Guides
+
+- 📋 **Standardization:** Ensures all operators and engineers follow the same procedures.
+- ✅ **Quality Assurance:** Reduces errors and maintains consistent output.
+- 🕒 **Time-Saving:** Provides step-by-step instructions to perform tasks efficiently.
+- 📑 **Documentation:** Maintains a record of processes for audits and compliance.
+- 💡 **Training & Onboarding:** New employees can quickly learn procedures.
+
+### When We Need Guides
+
+- Creating **work instructions** for assembly or manufacturing tasks.
+- Documenting **standard operating procedures (SOPs)**.
+- Providing **part-specific reference materials** for engineers or operators.
+- Updating procedures after **design or process changes**.
+- Ensuring **regulatory or quality compliance** across teams.
+
 The **Guides module** allows you to manage work instructions and reference guides linked to parts, platforms, and categories.  
 From here, you can **view, create, update, and delete guides** that are part of the manufacturing process.
 
@@ -93,4 +112,4 @@ Imagine you want to add a **Work Instruction Guide** for assembling an engine pa
 
 ---
 
-✅ You now know how to **view, create, edit, and manage guides** in the system!
+✅ You now know how to **view, create, edit, and manage guides** in the system, and understand **why guides are important for standardization, quality, and traceability**.

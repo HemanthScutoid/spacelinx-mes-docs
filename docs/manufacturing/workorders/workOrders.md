@@ -6,6 +6,25 @@ sidebar_label: Work Orders
 
 # 📑 Work Orders
 
+A **Work Order (WO)** is a formal document that specifies tasks, operations, or production activities to be performed in a manufacturing process.  
+It provides a structured plan for production, linking parts, guides, and platforms, and ensures **traceability and accountability** throughout the manufacturing workflow.
+
+### Why We Use Work Orders
+
+- 📋 **Task Organization:** Clearly defines what needs to be done, by whom, and when.
+- ✅ **Quality Assurance:** Ensures procedures are followed according to guides and standards.
+- 🕒 **Production Tracking:** Helps track the status of work in real time (Pending → Assigned → In Progress → Completed).
+- 📑 **Traceability:** Links production activities to parts, guides, and platforms for audits and reporting.
+- 💡 **Resource Management:** Ensures materials, tools, and labor are available and allocated properly.
+
+### When We Need Work Orders
+
+- Planning and scheduling **manufacturing tasks**.
+- Assigning **specific operations to teams or operators**.
+- Tracking **progress of production** for individual parts or batches.
+- Ensuring **compliance with standard procedures** and quality guidelines.
+- Recording **start and completion dates** for accountability and reporting.
+
 The **Work Orders page** allows you to view, create, and manage all manufacturing work orders.  
 Each work order is linked to a platform, part, and guide, ensuring complete production traceability.
 
@@ -79,4 +98,4 @@ You can also access **kit data** and additional linked information through the d
 
 ---
 
-✅ You now know how to view, create, and manage Work Orders in the system.
+✅ You now know what a **Work Order is, why it’s used, and how to manage it** in the system.

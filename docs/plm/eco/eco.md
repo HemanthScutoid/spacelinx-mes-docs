@@ -1,7 +1,23 @@
 # Engineering Change Order (ECO)
 
-The **Engineering Change Order (ECO)** module allows teams to propose, track, and approve changes to parts, designs, or processes.  
-It ensures that every change is properly documented, reviewed, and approved before being implemented.
+An **Engineering Change Order (ECO)** is a formal document used to propose, review, and approve changes to a part, product design, or process.  
+ECOs ensure that any modifications are **properly documented, evaluated, and authorized** before implementation.
+
+### Why We Use ECOs
+
+- 🛠️ **Control Changes:** Ensures design or process changes are tracked systematically.
+- ✅ **Maintain Quality:** Reduces errors by requiring approval before implementation.
+- 📑 **Audit Trail:** Keeps a record of all changes for accountability.
+- 💡 **Communication:** Facilitates collaboration between engineering, manufacturing, and management.
+- ⚡ **Efficiency:** Streamlines the process of updating parts or processes without causing disruptions.
+
+### When Do We Need ECOs
+
+- Introducing a **new design or part modification**.
+- Updating **manufacturing or assembly processes**.
+- Correcting **defects or errors** in existing products.
+- Implementing **regulatory or compliance-related changes**.
+- Making **improvements or optimizations** to existing designs.
 
 ---
 
@@ -27,7 +43,7 @@ At this stage, the ECO is saved as a **Draft**.
 
 ### 2. Editing / Review Stage
 
-Once the ECO is created, users can open it by clicking on any field from ECO table like ECO number,name etc. from ECO page to see more details:
+Once the ECO is created, users can open it by clicking on any field in the ECO table (like ECO Number or Name) from the ECO page to see more details:
 
 - **Effected Parts** – Add or update the list of parts impacted by the change.
 - **Upload Documents** – Attach supporting files such as design documents, reports, or approvals.

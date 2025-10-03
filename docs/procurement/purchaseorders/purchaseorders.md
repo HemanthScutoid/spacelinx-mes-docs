@@ -1,6 +1,20 @@
 # Purchase Orders
 
-The **Purchase Orders** page allows you to view, search, and manage all purchase orders in the system. You can also create new POs (based on your access permissions).
+A **Purchase Order (PO)** is a formal document issued by a buyer to a vendor or supplier, specifying the products or services they wish to purchase. It acts as a legal offer to buy and helps track orders from creation to delivery.
+
+### Why POs are Important
+
+- 📑 Ensures **clarity and agreement** between buyer and supplier.
+- 💰 Helps **manage budgets and financial planning**.
+- 🛠️ Tracks **inventory and procurement needs**.
+- ✅ Serves as a **legal document** in case of disputes.
+- 📊 Supports **reporting and auditing** in procurement processes.
+
+---
+
+## Overview
+
+The **Purchase Orders** page allows you to **view, search, and manage all purchase orders** in the system. Depending on your access permissions, you can also **create new POs** or **delete existing ones**.
 
 ---
 

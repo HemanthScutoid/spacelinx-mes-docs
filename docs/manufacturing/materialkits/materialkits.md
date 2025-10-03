@@ -1,5 +1,23 @@
 # Material Kits
 
+A **Material Kit** is a pre-packaged set of parts, tools, or components grouped together for a specific manufacturing task or work order.  
+It ensures that all necessary materials are **available, confirmed, and traceable** before production starts.
+
+### Why We Use Material Kits
+
+- 📦 **Organization:** Groups all required parts for a work order in one kit.
+- ✅ **Accuracy:** Reduces errors by providing the exact parts needed.
+- 🕒 **Efficiency:** Speeds up production by avoiding delays searching for materials.
+- 📑 **Traceability:** Links parts directly to work orders and manufacturing tasks.
+- 💡 **Inventory Management:** Tracks kit quantities, location, and status in real-time.
+
+### When We Need Material Kits
+
+- Before starting a **work order**, to ensure all required parts are ready.
+- When multiple parts or components must be **grouped together** for a task.
+- To maintain **production traceability** and compliance with standards.
+- For **efficient allocation of materials** to work orders in manufacturing.
+
 The **Material Kits** page allows you to create, manage, and assign kits to work orders. Each kit represents a group of parts that can be confirmed, tracked, and linked to specific work orders.
 
 ---
@@ -90,4 +108,4 @@ The system provides **real-time alerts**:
 
 ---
 
-By following this flow, users can manage material kits efficiently and ensure correct linkage with work orders and locations.
+By following this flow, users can manage material kits efficiently and ensure correct linkage with work orders and locations. Material kits help maintain **production efficiency, accuracy, and traceability** throughout manufacturing.
