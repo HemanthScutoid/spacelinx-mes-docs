@@ -169,14 +169,46 @@ const sidebars = {
           ],
         },
         {
-          type: "doc",
-          id: "procurement/goodsreceipts",
+          type: "category",
           label: "Goods Receipts",
+          items: [
+            {
+              type: "doc",
+              id: "procurement/goodsReceiptNote/goodsreceipts",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "procurement/goodsReceiptNote/newGoodsReceipt",
+              label: "Create GRN",
+            },
+            {
+              type: "doc",
+              id: "procurement/goodsReceiptNote/editGoodsReceipt",
+              label: "Edit GRN",
+            },
+          ],
         },
         {
-          type: "doc",
-          id: "procurement/requisitions",
+          type: "category",
           label: "Requisitions",
+          items: [
+            {
+              type: "doc",
+              id: "procurement/requisitions/requisitions",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "procurement/requisitions/newRequisition",
+              label: "Create Requisition",
+            },
+            {
+              type: "doc",
+              id: "procurement/requisitions/editRequisition",
+              label: "Edit Requisition",
+            },
+          ],
         },
         {
           type: "doc",
