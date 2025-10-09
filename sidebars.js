@@ -211,9 +211,25 @@ const sidebars = {
           ],
         },
         {
-          type: "doc",
-          id: "procurement/vendors",
+          type: "category",
           label: "Vendors",
+          items: [
+            {
+              type: "doc",
+              id: "procurement/vendors/vendors",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "procurement/vendors/newVendor",
+              label: "Create Vendor",
+            },
+            {
+              type: "doc",
+              id: "procurement/vendors/editVendor",
+              label: "Edit Vendor",
+            },
+          ],
         },
       ],
     },
@@ -223,8 +239,48 @@ const sidebars = {
       label: "Inventory",
       items: [
         { type: "doc", id: "inventory/partsInventory", label: "Parts" },
-        { type: "doc", id: "inventory/goodsInventory", label: "Goods" },
-        { type: "doc", id: "inventory/servicesInventory", label: "Services" },
+        {
+          type: "category",
+          label: "Goods",
+          items: [
+            {
+              type: "doc",
+              id: "inventory/goodsInventory/goodsInventory",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "inventory/goodsInventory/newGood",
+              label: "Create Good",
+            },
+            {
+              type: "doc",
+              id: "inventory/goodsInventory/editGood",
+              label: "Edit Good",
+            },
+          ],
+        },
+        {
+          type: "category",
+          label: "Services",
+          items: [
+            {
+              type: "doc",
+              id: "inventory/servicesInventory/servicesInventory",
+              label: "Overview",
+            },
+            {
+              type: "doc",
+              id: "inventory/servicesInventory/newService",
+              label: "Create Service",
+            },
+            {
+              type: "doc",
+              id: "inventory/servicesInventory/editService",
+              label: "Edit Service",
+            },
+          ],
+        },
         {
           type: "doc",
           id: "inventory/stockMovements",
