@@ -72,3 +72,18 @@
 [data-theme="dark"] .footer .footer__link-item {
   color: #00ccff !important;
 }
+
+.not-authorized-image {
+  margin-top: 1.5rem;
+  max-width: 300px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode specific styling */
+html[data-theme="dark"] .not-authorized-image {
+  background-color: white; /* or any light shade */
+  padding: 10px;
+  border-radius: 10px;
+}

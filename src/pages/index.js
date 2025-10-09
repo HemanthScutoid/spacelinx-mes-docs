@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import Layout from "@theme/Layout";
 import {
   useMsal,
@@ -7,26 +7,30 @@ import {
 } from "@azure/msal-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {
+  FaCogs,
+  FaTools,
+  FaShoppingCart,
+  FaWarehouse,
+  FaBox,
+} from "react-icons/fa";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
   const { accounts, instance } = useMsal();
   const mainRef = useRef(null);
-
   const moduleRefs = useRef([]);
   const aboutRef = useRef(null);
 
   useEffect(() => {
-    // Hero section animation
     gsap.from(mainRef.current, {
       opacity: 0,
       x: -100,
-      duration: 2.5,
+      duration: 2,
       ease: "power3.out",
     });
 
-    // Animate modules on scroll
     moduleRefs.current.forEach((el, index) => {
       gsap.from(el, {
         opacity: 0,
@@ -40,7 +44,6 @@ export default function Home() {
       });
     });
 
-    // About section animation
     gsap.from(aboutRef.current, {
       opacity: 0,
       x: -150,
@@ -52,12 +55,12 @@ export default function Home() {
     });
   }, []);
 
-  // Utility to add refs for modules
   const addToRefs = (el) => {
     if (el && !moduleRefs.current.includes(el)) {
       moduleRefs.current.push(el);
     }
   };
+
   const handleLogin = () => {
     gsap.to(mainRef.current, {
       scale: 1.2,
@@ -69,6 +72,39 @@ export default function Home() {
       },
     });
   };
+
+  const modules = [
+    {
+      title: "Manufacturing",
+      icon: <FaCogs color="#e11d48" size={24} />,
+      description:
+        "Manage your production processes efficiently. This module includes Products, Guides, Work Orders, and Material Kits to track and optimize your shop floor operations.",
+    },
+    {
+      title: "PLM (Product Lifecycle Management)",
+      icon: <FaTools color="#e11d48" size={24} />,
+      description:
+        "Track and control your product development lifecycle. Includes Parts, ECOs, Tools, and Machines for better design, production, and maintenance management.",
+    },
+    {
+      title: "Procurement",
+      icon: <FaShoppingCart color="#e11d48" size={24} />,
+      description:
+        "Simplify purchasing and vendor management. Covers Purchase Orders, Goods Receipts, Requisitions, and Vendors to manage the full procurement lifecycle.",
+    },
+    {
+      title: "Inventory",
+      icon: <FaWarehouse color="#e11d48" size={24} />,
+      description:
+        "Keep your inventory under control. Manage Parts, Goods, Services, and Stock Movements for accurate tracking and planning.",
+    },
+    {
+      title: "Other Features",
+      icon: <FaBox color="#e11d48" size={24} />,
+      description:
+        "Additional tools to enhance your operations: Bulk Upload, Payment Terms, Roles, Permissions, and more.",
+    },
+  ];
 
   return (
     <Layout
@@ -133,10 +169,45 @@ export default function Home() {
                 </a>
               </div>
             ) : (
-              <div style={{ marginTop: "2rem", color: "red" }}>
+              <div style={{ marginTop: "2rem", color: "#e11d48" }}>
                 <p>
                   You are logged in but not authorized to view documentation.
                 </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 120 120"
+                  fill="none"
+                  stroke="#e11d48"
+                  strokeWidth="8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  width="200"
+                  height="200"
+                >
+                  <circle cx="60" cy="60" r="45" strokeOpacity="0.6">
+                    <animate
+                      attributeName="r"
+                      values="45;48;45"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                    />
+                    <animate
+                      attributeName="stroke-opacity"
+                      values="0.6;1;0.6"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                    />
+                  </circle>
+                  <circle cx="60" cy="60" r="35" />
+                  <line x1="38" y1="38" x2="82" y2="82">
+                    <animate
+                      attributeName="stroke-width"
+                      values="8;10;8"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                    />
+                  </line>
+                </svg>
               </div>
             )}
           </AuthenticatedTemplate>
@@ -144,57 +215,38 @@ export default function Home() {
 
         {/* Modules Overview */}
         <section>
-          <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>
+          <h2
+            style={{
+              textAlign: "center",
+              marginBottom: "2rem",
+              marginTop: "-30px",
+            }}
+          >
             Modules Overview
           </h2>
 
-          <div ref={addToRefs} style={{ marginBottom: "2rem" }}>
-            <h3>Manufacturing</h3>
-            <p>
-              Manage your production processes efficiently. This module includes
-              Products, Guides, Work Orders, and Material Kits to track and
-              optimize your shop floor operations.
-            </p>
-          </div>
-
-          <div ref={addToRefs} style={{ marginBottom: "2rem" }}>
-            <h3>PLM (Product Lifecycle Management)</h3>
-            <p>
-              Track and control your product development lifecycle. Includes
-              Parts, ECOs, Tools, and Machines for better design, production,
-              and maintenance management.
-            </p>
-          </div>
-
-          <div ref={addToRefs} style={{ marginBottom: "2rem" }}>
-            <h3>Procurement</h3>
-            <p>
-              Simplify purchasing and vendor management. Covers Purchase Orders,
-              Goods Receipts, Requisitions, and Vendors to manage the full
-              procurement lifecycle.
-            </p>
-          </div>
-
-          <div ref={addToRefs} style={{ marginBottom: "2rem" }}>
-            <h3>Inventory</h3>
-            <p>
-              Keep your inventory under control. Manage Parts, Goods, Services,
-              and Stock Movements for accurate tracking and planning.
-            </p>
-          </div>
-
-          <div ref={addToRefs} style={{ marginBottom: "2rem" }}>
-            <h3>Other Features</h3>
-            <p>
-              Additional tools to enhance your operations: Bulk Upload, Payment
-              Terms, Roles, Permissions, and more.
-            </p>
-          </div>
+          {modules.map((module, index) => (
+            <div key={index} ref={addToRefs} style={{ marginBottom: "2rem" }}>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                }}
+              >
+                {module.icon}
+                <h3 style={{ margin: 0, lineHeight: "1.2", color: "#e11d48" }}>
+                  {module.title}
+                </h3>
+              </div>
+              <p>{module.description}</p>
+            </div>
+          ))}
 
           {/* About Section */}
           <section
             ref={aboutRef}
-            style={{ marginTop: "3rem", textAlign: "center" }}
+            style={{ marginBottom: "2rem", textAlign: "center" }}
           >
             <h2>About SpaceLinx MES</h2>
             <p style={{ lineHeight: "1.6" }}>
