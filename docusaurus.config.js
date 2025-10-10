@@ -52,7 +52,20 @@ const config = {
           // Only include .js and .jsx pages to reduce processing
           include: ["**/*.js", "**/*.jsx"],
         },
-        blog: false, // already disabled
+        blog: {
+          showReadingTime: true, // shows "x min read"
+          routeBasePath: "/blog", // blog will be accessible at /blog
+          blogTitle: "SpaceLinx Blog",
+          blogDescription:
+            "Updates, insights, and release notes for SpaceLinx MES",
+          postsPerPage: 5,
+          feedOptions: {
+            type: "all",
+            title: "SpaceLinx MES Blog",
+            description: "Latest updates and insights from SpaceLinx MES",
+          },
+        },
+
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -92,6 +105,12 @@ const config = {
           position: "left",
           label: "Docs",
         },
+        // {
+        //   to: "/blog",
+        //   label: "Blog",
+        //   position: "left",
+        // },
+        { type: "search", position: "left" },
       ],
     },
 

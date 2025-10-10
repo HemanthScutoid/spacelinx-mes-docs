@@ -87,3 +87,14 @@ html[data-theme="dark"] .not-authorized-image {
   padding: 10px;
   border-radius: 10px;
 }
+/* Highlight blog post date for both list and single post */
+.blog-post-meta__date {
+  font-weight: bold; /* make text bold */
+  font-size: 0.95rem; /* slightly larger font */
+  color: #facc15; /* bright yellow text */
+  background-color: rgba(0, 0, 0, 0.15); /* subtle dark background */
+  padding: 3px 8px; /* small padding */
+  border-radius: 4px; /* rounded corners */
+  display: inline-block; /* so it looks like a badge */
+  margin-bottom: 0.5rem; /* space below the date */
+}
