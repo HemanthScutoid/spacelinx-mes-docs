@@ -74,15 +74,3 @@ If the process fails, an error alert is displayed.
   - Form resets.
 
 ---
-
-## Example Screenshot
-
-_(Add screenshot here showing the New Product flyout with inputs and image upload option.)_
-
----
-
-✅ Use this page whenever a new product needs to be registered in the system.
-
----
-
-Do you also want me to draft the **sidebar.js entry** for this `newProduct.md` so it shows up under **Products** in your docs navigation?
