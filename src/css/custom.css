@@ -98,3 +98,17 @@ html[data-theme="dark"] .not-authorized-image {
   display: inline-block; /* so it looks like a badge */
   margin-bottom: 0.5rem; /* space below the date */
 }
+
+.image-container {
+  border: 1px solid #00ccff;
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.image-text {
+  text-align: center;
+  margin-top: 5px;
+  font-style: italic;
+}

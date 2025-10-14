@@ -3,6 +3,19 @@
 The **Create/Edit Guide** form allows users to add new guides or edit existing ones.  
 It validates required fields, prevents duplicates, and allows selection of guide type, platform, and category.
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/create-guide.png"
+    alt="Create Guide  Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Create Guide Page
+  </p>
+</div>
 ---
 
 ## 📍 Accessing the Page

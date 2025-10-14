@@ -28,6 +28,20 @@ From here, you can **view, create, update, and delete guides** that are part of 
 
 ### 📋 1. View All Guides
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/guides.png"
+    alt="Guides Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Guides Page
+  </p>
+</div>
+
 - All existing guides are displayed in a **table format**.
 - Each row shows details such as:
   - Platform
@@ -38,12 +52,53 @@ From here, you can **view, create, update, and delete guides** that are part of 
   - Version & Status
   - Created Date
 
-👉 Clicking a **Guide Number** takes you to its detailed view.  
+👉 Clicking a **Guide Number** takes you to its detailed view.
+
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/guide-details.png"
+    alt="Guide Details Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 2: Overview of the Guide Details Page
+  </p>
+</div>
 👉 Clicking a **Part Number** opens its part details in a side drawer.
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/redirecting-to-part.png"
+    alt="Part Drawer Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 3: Part Drawer Page
+  </p>
+</div>
 
 ---
 
 ### ➕ 2. Add a New Guide
+
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/create-guide.png"
+    alt="Create Guide  Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 4: Overview of the Create Guide Page
+  </p>
+</div>
 
 1. Click the **+ Add New** button at the top right.
 2. A **drawer** will slide in from the right.
@@ -53,7 +108,7 @@ From here, you can **view, create, update, and delete guides** that are part of 
    - Part Number (if linked)
    - Type & Category
    - Version and Status
-4. Click **Save**. The new guide will appear in the list.
+4. Click **Create**. The new guide will appear in the list.
 
 ---
 
@@ -67,8 +122,22 @@ From here, you can **view, create, update, and delete guides** that are part of 
 
 ### 🗑️ 4. Delete a Guide
 
+<div className = "image-container"> 
+  <img
+
+      src="/assets/manufacturing/guides/delete-guide.png"
+      alt="Delete Confirmation Screenshot"
+      width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 5: Delete Confirmation Alert
+  </p>
+</div>
 - In the list, click the **trash icon** (🗑️) in the row of the guide you want to delete.
 - A confirmation dialog will appear.
+  
 - Select **Yes** to delete or **Cancel** to keep the guide.
 - Once deleted, the guide is permanently removed from the list.
 

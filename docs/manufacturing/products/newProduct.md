@@ -8,6 +8,19 @@ sidebar_label: New Product
 
 The **New Product** page allows users to create a new product by linking it to an existing released part, associating it with a platform, adding a description, and optionally uploading an image.
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/products/create-product.png"
+    alt="Create Product Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Create Product Page
+  </p>
+</div>
 ---
 
 ## Key Features

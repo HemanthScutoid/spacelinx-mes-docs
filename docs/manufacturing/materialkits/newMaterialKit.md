@@ -9,6 +9,16 @@ The **New Material Kit** feature allows you to quickly create a kit by linking i
 1. Go to the **Material Kits** section in the sidebar.
 2. Click **+ Create Kit**.
 3. The **Create Kit** flyout will open.
+<div className = "image-container"> 
+     <img
+         src="/assets/manufacturing/materialkits/create-kit.png"
+         alt="Create Material Kit Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 1: Overview of the Create Material Kit Page
+  </p>
+</div>
 
 ---
 

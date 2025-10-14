@@ -3,6 +3,19 @@
 The **Guide Details page** gives a complete view of an individual guide.  
 From here, you can manage versions, steps, images, videos, BOMs, and publishing options.
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/guide-details.png"
+    alt="Guide Details Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Guide Details Page
+  </p>
+</div>
 ---
 
 ## 🔖 Navigation
@@ -57,6 +70,20 @@ Guides are made up of **steps**. Each step can have text, images, videos, and ta
 
 ### Step Controls (Draft only)
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/guides/step-controls.png"
+    alt="Step Controls Screenshot"
+    width={100}
+
+/>
+
+  <p className = "image-text" >
+    Figure 2: Overview of the Step Controls
+  </p>
+</div>
+
 - ➕ **Add Step** – Insert a new step.
 - 📑 **Copy Step** – Duplicate an existing step.
 - 🗑️ **Delete Step** – Remove a step.
@@ -75,6 +102,17 @@ For the selected step, you can manage:
 - **Edit Image** – Use the built-in image editor.
 - **Preview Section** – Shows the attached image or video.
 - **Tasks Section** – Add step-specific tasks (checklists, instructions).
+<div className = "image-container"> 
+  <img
+      src="/assets/manufacturing/guides/guide-step-details.png"
+      alt="Guide Step Controls Screenshot"
+
+/>
+
+  <p className = "image-text" >
+    Figure 3: Overview of the Guide Step Details
+  </p>
+</div>
 
 ---
 
@@ -83,9 +121,29 @@ For the selected step, you can manage:
 Guides can include a **Bill of Materials (BOM)**:
 
 - **Step BOM** – Parts or equipment needed for a specific step.
-- **BOM** – Full list of items linked to the entire guide.
+<div className = "image-container"> 
+  <img
+      src="/assets/manufacturing/guides/step-BOM.png"
+      alt="Guide Step BOM Screenshot"
 
-These open in **flyout drawers** on the left-hand side.
+/>
+
+  <p className = "image-text" >
+    Figure 4: Overview of the Guide Step BOM Details
+  </p>
+</div>
+- **BOM** – Full list of items linked to the entire guide.
+<div className = "image-container"> 
+  <img
+      src="/assets/manufacturing/guides/BOM.png"
+      alt="Guide BOM Screenshot"
+
+/>
+
+  <p className = "image-text" >
+    Figure 5: Overview of the Guide BOM Details
+  </p>
+</div>
 
 ---
 
@@ -107,6 +165,7 @@ At any time, you can click **Print** to generate a printable version of the guid
 ## 🔄 Cloning
 
 Use **Clone Guide** to create a copy of an existing guide.  
+**Clone Guide** button will be visible for published guides.
 This is useful when creating a new version based on an existing one.
 
 ---

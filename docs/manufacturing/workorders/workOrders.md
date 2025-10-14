@@ -1,9 +1,3 @@
----
-id: workOrders
-title: Work Orders
-sidebar_label: Work Orders
----
-
 # 📑 Work Orders
 
 A **Work Order (WO)** is a formal document that specifies tasks, operations, or production activities to be performed in a manufacturing process.  
@@ -47,6 +41,20 @@ The table includes:
 
 You can **click a row** or the work order number to open full details.
 
+ <div className = "image-container"> 
+  <img
+
+      src="/assets/manufacturing/workorders/workorders.png"
+      alt="Workorders Page Screenshot"
+      width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Workorders  Page
+  </p>
+</div>
+
 ---
 
 ## ➕ Creating a Work Order
@@ -59,6 +67,20 @@ You can **click a row** or the work order number to open full details.
 
 👉 You must have **Modify permission** to create a work order.
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/workorders/create-workorder.png"
+    alt="Create Workorder Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 2: Overview of the Create Workorder  Page
+  </p>
+</div>
+
 ---
 
 ## 🗑️ Deleting a Work Order
@@ -66,8 +88,19 @@ You can **click a row** or the work order number to open full details.
 - Click the **trash icon** in the last column of the table.
 - A confirmation dialog will appear.
 - Deletion rules:
+
   - ✅ Allowed if status = **Pending** or **Assigned**
   - ❌ Not allowed if status = **In Progress** or **Completed**
+  <div className = "image-container"> 
+      <img
+          src="/assets/manufacturing/workorders/delete-workorder.png"
+          alt="Delete Workorder Confirmation"
+          width={700}
+  />
+    <p className = "image-text" >
+      Figure 3: Overview of the Delete Workorder Confirmation Page
+    </p>
+  </div>
 
 ---
 

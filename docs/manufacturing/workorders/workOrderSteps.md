@@ -1,7 +1,20 @@
-# Work Order Details
+# Work Order Steps
 
-The **Work Order Details** page gives you a complete view of a specific Work Order, including its steps, progress, timing, materials, and BOM (Bill of Materials).
+The **Work Order Step** page gives you a complete view of a specific Work Order, including its steps, progress, timing, materials, and BOM (Bill of Materials).
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/workorders/workorder-step.png"
+    alt="Workorder Step Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Workorder Step Page
+  </p>
+</div>
 ---
 
 ## Navigation

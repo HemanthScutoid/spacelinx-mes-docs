@@ -2,6 +2,16 @@
 
 The **New Part** page allows you to create and register new parts in the system. Each part can include key details such as its type, name, measurement unit, manufacturing number, and an optional image.
 
+  <div className = "image-container">
+       <img
+         src="/assets/PLM/parts/create-new-part.png"
+         alt="Create Part Page Screenshot"
+         width={700}
+       />
+       <p className = "image-text" >
+         Figure 2: Overview of the Create Part page
+       </p>
+   </div>
 ---
 
 ## Steps to Create a Part

@@ -2,6 +2,16 @@
 
 The **BOM Creation page** allows you to attach **child parts** to a parent part, define their quantities, and manage relationships between parts. This is used to define how a product is built.
 
+ <div className = "image-container">
+       <img
+         src="/assets/PLM/parts/BOM.png"
+         alt="BOM Page Screenshot"
+         width={700}
+       />
+       <p className = "image-text" >
+         Figure 4: Overview of the BOM page
+       </p>
+   </div>
 ---
 
 ## When You Can Use It
