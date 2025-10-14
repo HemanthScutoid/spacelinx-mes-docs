@@ -40,6 +40,16 @@ Displays general details of the PO.
 - **Project**
 - **Line Items** (materials/services requested)
 - **Terms and Conditions**
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/purchase-order-details.png"
+         alt="Purchase Order Details Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 1: Overview of the Purchase Order Details Page
+  </p>
+</div>
 
 ---
 
@@ -53,6 +63,16 @@ Upload and manage supporting documents for the PO.
 | **Upload** | Only when PO is in Draft + Modify permission |
 | **Delete** | Only when PO is in Draft + Delete permission |
 
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/purchase-order-documents-tab.png"
+         alt="Purchase Order Documents Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 2: Overview of the Purchase Order Documents Tab Page
+  </p>
+</div>
 ---
 
 ### 3. GRN (Goods Receipt Notes)
@@ -61,6 +81,16 @@ Lists all GRNs linked to the purchase order.
 
 - You can view all GRNs if you have **View permission**.
 - Helps track goods received against this PO.
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/purchase-order-GRN-tab.png"
+         alt="Purchase Order GRN Tab Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 3: Overview of the Purchase Order GRN Tab Page
+  </p>
+</div>
 
 ---
 

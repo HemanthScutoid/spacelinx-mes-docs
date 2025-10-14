@@ -18,6 +18,21 @@ The **Parts module** helps you manage all the components, materials, and product
   - **Unit of Measure** – The standard unit used (e.g., pieces, kg).
   - **Weight, Unit Price, Old Part Number**, and more.
 
+<div
+ 
+  className = "image-container"
+  
+>
+  <img
+    src="/assets/PLM/parts/parts-page.png"
+    alt="Parts Page Screenshot"
+    width={700}
+  />
+  <p className = "image-text" >
+    Figure 1: Overview of the Parts page showing all columns and actions
+  </p>
+</div>
+
 ---
 
 ### 2. Create New Parts
@@ -25,6 +40,16 @@ The **Parts module** helps you manage all the components, materials, and product
 - Click **New Part** to open a side panel where you can add details for a new part.
 - Fill in information like part number, name, category, and unit of measure.
 - Save the part to instantly add it to your system.
+<div className = "image-container">
+      <img
+        src="/assets/PLM/parts/create-new-part.png"
+        alt="Create Part Page Screenshot"
+        width={700}
+      />
+      <p className = "image-text" >
+        Figure 2: Overview of the Create Part page
+      </p>
+  </div>
 
 ---
 
@@ -33,6 +58,16 @@ The **Parts module** helps you manage all the components, materials, and product
 - Click on any part row to open the **Edit Part** panel.
 - Update details like category, weight, or unit price.
 - Save changes to keep part data accurate and up to date.
+<div className = "image-container">
+      <img
+        src="/assets/PLM/parts/edit-part.png"
+        alt="Edit Part Page Screenshot"
+        width={700}
+      />
+      <p className = "image-text" >
+        Figure 3: Overview of the Edit Part page
+      </p>
+  </div>
 
 ---
 
@@ -48,3 +83,13 @@ The **Parts module** helps you manage all the components, materials, and product
 - Select one or more parts with status **Draft** or **Release**.
 - Click **Create ECO** to begin an Engineering Change Order.
 - This helps manage design...
+<div className = "image-container">
+      <img
+        src="/assets/PLM/parts/select-part.png"
+        alt="Edit Part Page Screenshot"
+        width={700}
+      />
+      <p className = "image-text" >
+        Figure 4: Overview of the Parts page After selecting a single part
+      </p>
+  </div>

@@ -2,6 +2,16 @@
 
 The **Line Items** section is where you define the materials or services being purchased in a Purchase Order (PO). It includes controls for adding new items, applying discounts, setting tax options, selecting a currency, and reviewing the cost summary.
 
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/purchase-order-lineitem.png"
+         alt="Purchase Order Line Item Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 1: Overview of the Purchase Order Line Item Page
+  </p>
+</div>
 ---
 
 ## Line Item Controls
@@ -47,6 +57,16 @@ At the bottom, a **Cost Summary panel** shows all calculated totals:
 | **Tax Breakdown**        | Shown depending on GST option: <br/>• SGST/CGST split <br/>• IGST <br/>• No Tax Split (flat total tax). |
 | **Grand Total**          | Final PO total after discount and taxes.                                                                |
 
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/cost-summary.png"
+         alt="Purchase Order Cost Summary Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 2: Overview of the Purchase Order Cost Summary Page
+  </p>
+</div>
 ---
 
 ## Tax Groups
@@ -59,6 +79,28 @@ You can create custom **Tax Groups** from within the line items table:
 - **Description** → Optional note.
 
 Once created, new tax groups become available in the **Tax Type** dropdown for items.
+clicking on **+ New Tax Group** will open a dialog box
+
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/custom-tax-group1.png"
+         alt="Custom Tax Group Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 3: Overview of the Custom Tax Group 
+  </p>
+</div>
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/custom-tax-group2.png"
+         alt="Custom Tax Group Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 4: Overview of the Custom Tax Group Dialog Box
+  </p>
+</div>
 
 ---
 

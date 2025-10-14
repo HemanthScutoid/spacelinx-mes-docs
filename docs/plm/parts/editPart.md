@@ -3,6 +3,16 @@
 The **Edit Part Flyout** allows you to view and update details of a selected part in the system.  
 It provides a clear interface with tabs for managing all aspects of a part — such as details, bill of materials (BOM), documents, usage, inventory, and transactions.
 
+ <div className = "image-container">
+       <img
+         src="/assets/PLM/parts/edit-part.png"
+         alt="Edit Part Page Screenshot"
+         width={700}
+       />
+       <p className = "image-text" >
+         Figure 1: Overview of the Edit Part page
+       </p>
+   </div>
 ---
 
 ## Overview
@@ -47,27 +57,87 @@ The flyout is divided into multiple tabs:
    - Upload or capture a part image using your camera.
    - Option to revise the part (if the part is released and editable).
    - Save changes or reset them.
+    <div className = "image-container">
+       <img
+         src="/assets/PLM/parts/edit-part.png"
+         alt="Edit Part Page Screenshot"
+         width={700}
+       />
+       <p className = "image-text" >
+         Figure 2: Overview of the Edit Part page
+       </p>
+   </div>
 
 2. **BOM (Bill of Materials)**
 
    - Shows the child parts used to build the selected part.
    - Allows managing child components if permitted.
+    <div className = "image-container">
+       <img
+         src="/assets/PLM/parts/BOM-tab.png"
+         alt="BOM Tab Screenshot"
+         width={700}
+       />
+       <p className = "image-text" >
+         Figure 3: Overview of the BOM Tab
+       </p>
+   </div>
 
 3. **Documents**
 
    - Attach and view documents linked to the part.
    - Documents can only be deleted when the part is in Draft status.
+   <div className = "image-container">
+   <img
+         src="/assets/PLM/parts/documents-tab.png"
+         alt="Documents Tab Screenshot"
+         width={700}
+       />
+   <p className = "image-text" >
+   Figure 4: Overview of the Documents Tab
+   </p>
+   </div>
 
 4. **Where Used**
 
    - Displays all assemblies or products that include this part.
+    <div className = "image-container">
+   <img
+         src="/assets/PLM/parts/where-used-tab.png"
+         alt="Where used Tab Screenshot"
+         width={700}
+       />
+   <p className = "image-text" >
+   Figure 5: Overview of the Where Used Tab
+   </p>
+   </div>
 
 5. **Inventory** (visible only for specific roles)
 
    - Shows the inventory details for the selected part.
+    <div className = "image-container">
+   <img
+         src="/assets/PLM/parts/inventory-tab.png"
+         alt="Inventory Tab Screenshot"
+         width={700}
+       />
+   <p className = "image-text" >
+   Figure 6: Overview of the Inventory Tab
+   </p>
+   </div>
 
 6. **Transactions** (visible only if enabled)
    - Displays all inventory transactions related to the part.
+    <div className = "image-container">
+   <img
+         src="/assets/PLM/parts/transactions-tab.png"
+         alt="Transactions Tab Screenshot"
+         width={700}
+       />
+   <p className = "image-text" >
+   Figure 7: Overview of the Transactions Tab
+   </p>
+   </div>
 
 ---
 

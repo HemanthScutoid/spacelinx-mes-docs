@@ -29,6 +29,21 @@ The ECO process in this application follows **two main stages**:
 
 When creating a new ECO, you will be asked to provide the following details:
 
+<div
+ 
+  className = "image-container"
+  
+>
+  <img
+    src="/assets/PLM/eco/eco.png"
+    alt="Create ECO Page Screenshot"
+    width={700}
+  />
+  <p className = "image-text" >
+    Figure 1: Overview of the Create ECO page 
+  </p>
+</div>
+
 - **ECO Name** – A short, descriptive title.
 - **Reason for Change** – The justification for why the change is required.
 - **Change Type** – Choose from predefined types (e.g., Design Change, Process Change).
@@ -45,8 +60,54 @@ At this stage, the ECO is saved as a **Draft**.
 
 Once the ECO is created, users can open it by clicking on any field in the ECO table (like ECO Number or Name) from the ECO page to see more details:
 
+<div
+ 
+  className = "image-container"
+  
+>
+  <img
+    src="/assets/PLM/eco/edit-eco.png"
+    alt="Edit ECO Page Screenshot"
+    width={700}
+  />
+  <p className = "image-text" >
+    Figure 2: Overview of the Edit ECO Page
+  </p>
+</div>
+
 - **Effected Parts** – Add or update the list of parts impacted by the change.
+
+<div
+ 
+  className = "image-container"
+  
+>
+  <img
+    src="/assets/PLM/eco/eco-effected-parts.png"
+    alt="ECO Effected Parts Page Screenshot"
+    width={700}
+  />
+  <p className = "image-text" >
+    Figure 3: Overview of the ECO Effected Parts Page
+  </p>
+</div>
+
 - **Upload Documents** – Attach supporting files such as design documents, reports, or approvals.
+
+<div className = "image-container"> 
+<img
+
+    src="/assets/PLM/eco/eco-documents.png"
+    alt="ECO Documents Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 4: Overview of the ECO Documents Page
+  </p>
+</div>
+
 - **Submit ECO** – After all details are entered, the ECO can be submitted for review.
 
 Once submitted, the ECO moves out of Draft status and enters the review process.
@@ -54,6 +115,20 @@ Once submitted, the ECO moves out of Draft status and enters the review process.
 ---
 
 ## Approval Process
+
+<div className = "image-container"> 
+<img
+
+    src="/assets/PLM/eco/eco-approval.png"
+    alt="ECO Approval Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 5: Overview of the ECO Approval Page
+  </p>
+</div>
 
 - ECOs that are **submitted** are reviewed by users with the **ECO Approver** role.
 - Approvers can review the details, assess the impact, and either **Approve** or **Reject** the ECO.

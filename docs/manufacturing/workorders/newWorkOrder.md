@@ -3,6 +3,20 @@
 The **Create work order** flyout allows users to create a new manufacturing/work order for a **part** or **product**.  
 It validates required fields, ensures proper guide selection, and assigns roles for technicians and managers.
 
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/workorders/create-workorder.png"
+    alt="Create Workorder Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Create Workorder  Page
+  </p>
+</div>
+
 ---
 
 ## 📍 Accessing the Page

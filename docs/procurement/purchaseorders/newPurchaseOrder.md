@@ -2,6 +2,16 @@
 
 The **Create Purchase Order** screen allows you to raise a new purchase order by filling in vendor, project, billing, shipping, and item details.
 
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/create-purchase-order.png"
+         alt="Create Purchase Order Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 1: Overview of the Create Purchase Order Page
+  </p>
+</div>
 ---
 
 ## How to Use

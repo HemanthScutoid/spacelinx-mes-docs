@@ -1,13 +1,21 @@
----
-id: workOrderDetails
-title: Work Order Details
-sidebar_label: Work Order Details
----
-
 # 📋 Work Order Details
 
 Once you select a **Work Order** from the list, you will be taken to the **Work Order Details page**.  
 This page shows everything about the selected order, including assigned kits, products, managers, technicians, and progress steps.
+
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/workorders/workorder-details.png"
+    alt="Workorder Details Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Workorder Details Page
+  </p>
+</div>
 
 ---
 

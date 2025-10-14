@@ -16,6 +16,17 @@ A **Purchase Order (PO)** is a formal document issued by a buyer to a vendor or 
 
 The **Purchase Orders** page allows you to **view, search, and manage all purchase orders** in the system. Depending on your access permissions, you can also **create new POs** or **delete existing ones**.
 
+<div className = "image-container"> 
+     <img
+         src="/assets/procurement/purchaseorders/purchase-orders.png"
+         alt="Purchase Orders Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 1: Overview of the Purchase Orders Page
+  </p>
+</div>
+
 ---
 
 ## Features

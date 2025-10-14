@@ -28,6 +28,16 @@ The **Material Kits** page allows you to create, manage, and assign kits to work
 - **Add New Button** → Create a new material kit.
 - **Table View** → Displays all material kits and their child kits in a hierarchical view.
 - **Drawers** → Slide-out panels for creating kits, viewing child kit details, or assigning work orders.
+<div className = "image-container"> 
+     <img
+         src="/assets/manufacturing/materialkits/materialkits.png"
+         alt="Material Kits Page Screenshot"
+         width={700}
+/>
+  <p className = "image-text" >
+    Figure 1: Overview of the Material Kits Page
+  </p>
+</div>
 
 ---
 

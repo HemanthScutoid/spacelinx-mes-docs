@@ -1,9 +1,3 @@
----
-id: products
-title: Products Module
-sidebar_label: Products
----
-
 # 📦 Products Module – Overview
 
 The **Products module** in SpaceLinx MES is designed to act as the **core hub for manufacturing execution**.  
@@ -16,6 +10,20 @@ A **Product** represents the **final deliverable** that connects:
 - ✅ Its **Bill of Workorders (BoW)**
 
 This ensures a **single, unified view** of everything required to manufacture and track a product.
+
+ <div className = "image-container"> 
+    <img
+
+        src="/assets/manufacturing/products/products.png"
+        alt="Products Page Screenshot"
+        width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 1: Overview of the Products Page
+  </p>
+</div>
 
 ---
 
@@ -87,7 +95,21 @@ For each selected product, the system shows:
 
 ### 6. **View & Edit Product Details**
 
-- Users can open a **detailed drawer** to edit or update product information.
+<div className = "image-container"> 
+<img
+
+    src="/assets/manufacturing/products/edit-product.png"
+    alt="Edit Product Page Screenshot"
+    width={700}
+
+/>
+
+  <p className = "image-text" >
+    Figure 2: Overview of the Edit Product Page
+  </p>
+</div>
+
+- Users can open a **detailed drawer** to edit or update product information by clicking on **View Details** .
 - Ensures products remain up-to-date with latest guide/part changes.
 
 ---
