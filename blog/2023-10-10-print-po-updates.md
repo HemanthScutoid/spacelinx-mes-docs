@@ -1,6 +1,6 @@
 ---
 title: "Improved Print Options for Purchase Orders"
-author: Hemanth
+author: Sainath
 date: 2025-10-10
 description: "Easily customize your printed Purchase Orders with new options."
 tags: [PO, Print, Updates]

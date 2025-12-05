@@ -2,6 +2,14 @@
 
 The **Clone BOM (Bill of Materials)** feature allows you to **duplicate the structure of an existing BOM** (all the parts and assemblies it contains) to another part in your system. This is particularly useful when you have multiple similar products or assemblies and want to **reuse an existing BOM** without manually creating it again.
 
+<div class="video-container ">
+  <video width="700" controls>
+    <source src="/assets/PLM/parts/videos/clone-bom-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="image-text">Video: Overview of the Clone BOM Feature</p>
+</div>
+
 ---
 
 ## 📝 What is Clone BOM?

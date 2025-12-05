@@ -2,6 +2,17 @@
 
 The **Goods Receipts (GRN)** page allows you to view, create, and manage goods receipt notes that record materials received against purchase orders.
 
+<div className = "image-container"> 
+  <img
+    src="/assets/procurement/GRN/grn.png"
+    alt="GRN Page Screenshot"
+    width={700}
+  />
+  <p className = "image-text" >
+    Figure 1: Overview of the GRN Page
+  </p>
+</div>
+
 ---
 
 ## Page Layout
