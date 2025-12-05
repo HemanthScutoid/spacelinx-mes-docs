@@ -2,6 +2,14 @@
 
 The **Parts module** helps you manage all the components, materials, and products used in your manufacturing process. From here, you can create, edit, organize, and track each part in your system.
 
+<div class="video-container ">
+  <video width="700" controls>
+    <source src="/assets/PLM/parts/videos/parts-page.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="image-text">Video: Key Features of the Parts Module</p>
+</div>
+
 ---
 
 ## 🔑 Key Features

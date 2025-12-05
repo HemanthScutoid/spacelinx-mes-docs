@@ -3,16 +3,13 @@
 The **Edit Part Flyout** allows you to view and update details of a selected part in the system.  
 It provides a clear interface with tabs for managing all aspects of a part — such as details, bill of materials (BOM), documents, usage, inventory, and transactions.
 
- <div className = "image-container">
-       <img
-         src="/assets/PLM/parts/edit-part.png"
-         alt="Edit Part Page Screenshot"
-         width={700}
-       />
-       <p className = "image-text" >
-         Figure 1: Overview of the Edit Part page
-       </p>
-   </div>
+<div class="video-container ">
+  <video width="700" controls>
+    <source src="/assets/PLM/parts/videos/edit-part-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="image-text">Video: Overview of the Edit Part Page</p>
+</div>
 ---
 
 ## Overview

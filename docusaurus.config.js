@@ -110,7 +110,6 @@ const config = {
         //   label: "Blog",
         //   position: "left",
         // },
-        { type: "search", position: "left" },
       ],
     },
 

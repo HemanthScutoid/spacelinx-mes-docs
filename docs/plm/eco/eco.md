@@ -25,6 +25,14 @@ ECOs ensure that any modifications are **properly documented, evaluated, and aut
 
 The ECO process in this application follows **two main stages**:
 
+<div class="video-container ">
+  <video width="700" controls>
+    <source src="/assets/PLM/eco/videos/eco-process-video.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <p class="image-text">Video: Overview of the ECO Lifecycle</p>
+</div>
+
 ### 1. Creation Stage
 
 When creating a new ECO, you will be asked to provide the following details:

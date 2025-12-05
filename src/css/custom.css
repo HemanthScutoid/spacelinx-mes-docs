@@ -15,6 +15,10 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --bg-color-primary: #fff;
+  --text-color-primary: #000;
+  --icon-color-primary: #00ccff;
+  --logo-bg-color: "red";
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,6 +31,9 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --bg-color-primary: #212121;
+  --text-color-primary: #fff;
+  --logo-bg-color: "#202020";
 }
 
 .navbar__link--active {
@@ -40,6 +47,10 @@
   margin: 0px 2px;
   background-color: #1b1b1d;
 }
+.usermail {
+  font-weight: bold;
+  font-size: 14px;
+}
 .LoginButton {
   background-color: var(--ifm-color-primary);
   border: none;
@@ -47,8 +58,11 @@
   font-weight: bold;
   color: white;
   font-size: 16px;
-  padding: 12px;
+  padding: 8px;
   border-radius: 8px;
+}
+.AuthLogoutButton {
+  background-color: red;
 }
 
 [data-theme="light"] .footer {
@@ -111,4 +125,39 @@ html[data-theme="dark"] .not-authorized-image {
   text-align: center;
   margin-top: 5px;
   font-style: italic;
+}
+.usermail {
+  color: var(--ifm-color-primary);
+  font-size: 16px;
+}
+.video-container {
+  border: 2px solid #a1a1a1;
+  padding: 8px;
+  border-radius: 8px;
+  animation: video 3s linear infinite;
+}
+.video-container video {
+  margin-left: 40px;
+  border-radius: 8px;
+}
+@keyframes video {
+  0% {
+    border: 3px solid yellow;
+  }
+  25% {
+    border: 3px solid yellow;
+  }
+  50% {
+    border: 3px solid green;
+  }
+  75% {
+    border: 3px solid yellowgreen;
+  }
+  100% {
+    border: 3px solid red;
+  }
+}
+.image-text {
+  font-weight: bold;
+  font-size: 18px;
 }

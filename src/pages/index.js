@@ -35,8 +35,8 @@ export default function Home() {
       gsap.from(el, {
         opacity: 0,
         x: -150,
-        duration: 2.5,
-        delay: index * 0.2,
+        duration: 1,
+        delay: index * 0.1,
         scrollTrigger: {
           trigger: el,
           start: "top 80%",
@@ -76,31 +76,31 @@ export default function Home() {
   const modules = [
     {
       title: "Manufacturing",
-      icon: <FaCogs color="#e11d48" size={24} />,
+      icon: <FaCogs color="var( --icon-color-primary)" size={24} />,
       description:
         "Manage your production processes efficiently. This module includes Products, Guides, Work Orders, and Material Kits to track and optimize your shop floor operations.",
     },
     {
       title: "PLM (Product Lifecycle Management)",
-      icon: <FaTools color="#e11d48" size={24} />,
+      icon: <FaTools color="var( --icon-color-primary)" size={24} />,
       description:
         "Track and control your product development lifecycle. Includes Parts, ECOs, Tools, and Machines for better design, production, and maintenance management.",
     },
     {
       title: "Procurement",
-      icon: <FaShoppingCart color="#e11d48" size={24} />,
+      icon: <FaShoppingCart color="var( --icon-color-primary)" size={24} />,
       description:
         "Simplify purchasing and vendor management. Covers Purchase Orders, Goods Receipts, Requisitions, and Vendors to manage the full procurement lifecycle.",
     },
     {
       title: "Inventory",
-      icon: <FaWarehouse color="#e11d48" size={24} />,
+      icon: <FaWarehouse color="var( --icon-color-primary)" size={24} />,
       description:
         "Keep your inventory under control. Manage Parts, Goods, Services, and Stock Movements for accurate tracking and planning.",
     },
     {
       title: "Other Features",
-      icon: <FaBox color="#e11d48" size={24} />,
+      icon: <FaBox color="var( --icon-color-primary)" size={24} />,
       description:
         "Additional tools to enhance your operations: Bulk Upload, Payment Terms, Roles, Permissions, and more.",
     },
@@ -113,13 +113,32 @@ export default function Home() {
     >
       <main
         ref={mainRef}
-        style={{ padding: "2rem", maxWidth: "900px", margin: "0 auto" }}
+        style={{
+          padding: "2rem",
+          maxWidth: "900px",
+          margin: "-20px auto",
+        }}
       >
         {/* Hero Section */}
         <section style={{ textAlign: "center", padding: "4rem 1rem" }}>
-          <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
+          {/* <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
             SpaceLinx MES
-          </h1>
+          </h1> */}
+          <div
+            style={{
+              backgroundColor: "#202020",
+              borderRadius: "8px",
+              width: "250px",
+              margin: "auto",
+              padding: "15px 20px",
+            }}
+          >
+            <img
+              src="/assets/logos/spacelinxlogo.png"
+              style={{ width: "300px", height: "40px" }}
+            />
+          </div>
+
           <p
             style={{
               fontSize: "1.25rem",
@@ -214,48 +233,52 @@ export default function Home() {
         </section>
 
         {/* Modules Overview */}
-        <section>
-          <h2
+        {/* Modules Overview */}
+        <section style={{ marginTop: "-20px" }}>
+          <h2 style={{ textAlign: "center" }}>Modules Overview</h2>
+
+          <div
             style={{
-              textAlign: "center",
-              marginBottom: "2rem",
-              marginTop: "-30px",
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gap: "2rem",
             }}
           >
-            Modules Overview
-          </h2>
-
-          {modules.map((module, index) => (
-            <div key={index} ref={addToRefs} style={{ marginBottom: "2rem" }}>
+            {modules.map((module, index) => (
               <div
+                key={index}
+                ref={addToRefs}
                 style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "10px",
+                  color: "var(  --text-color-primary)",
+                  borderRadius: "12px",
+                  padding: "1.5rem",
+                  boxShadow: "0 0 2px  #00ccff",
+                  transition: "transform 0.3s, box-shadow 0.3s",
                 }}
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.transform = "translateY(-10px)")
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.transform = "translateY(0px)")
+                }
               >
-                {module.icon}
-                <h3 style={{ margin: 0, lineHeight: "1.2", color: "#e11d48" }}>
-                  {module.title}
-                </h3>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "12px",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  {module.icon}
+                  <h3 style={{ margin: 0, color: "#00ccff" }}>
+                    {module.title}
+                  </h3>
+                </div>
+                <p style={{ lineHeight: "1.5" }}>{module.description}</p>
               </div>
-              <p>{module.description}</p>
-            </div>
-          ))}
-
-          {/* About Section */}
-          <section
-            ref={aboutRef}
-            style={{ marginBottom: "2rem", textAlign: "center" }}
-          >
-            <h2>About SpaceLinx MES</h2>
-            <p style={{ lineHeight: "1.6" }}>
-              SpaceLinx MES bridges the gap between ERP systems and actual
-              production execution. It ensures real-time visibility, better
-              control over manufacturing operations, and improved
-              decision-making across all your processes.
-            </p>
-          </section>
+            ))}
+          </div>
         </section>
       </main>
     </Layout>
