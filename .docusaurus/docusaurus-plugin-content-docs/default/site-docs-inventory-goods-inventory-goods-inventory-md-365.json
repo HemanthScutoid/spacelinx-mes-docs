@@ -1,0 +1,23 @@
+{
+  "id": "inventory/goodsInventory/goodsInventory",
+  "title": "📦 Goods Inventory",
+  "description": "The Goods Inventory page helps you manage and track all finished goods or stocked items available in your warehouse.",
+  "source": "@site/docs/inventory/goodsInventory/goodsInventory.md",
+  "sourceDirName": "inventory/goodsInventory",
+  "slug": "/inventory/goodsInventory/",
+  "permalink": "/docs/inventory/goodsInventory/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Parts",
+    "permalink": "/docs/inventory/partsInventory"
+  },
+  "next": {
+    "title": "Create Good",
+    "permalink": "/docs/inventory/goodsInventory/newGood"
+  }
+}

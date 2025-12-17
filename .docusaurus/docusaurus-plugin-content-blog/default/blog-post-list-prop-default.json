@@ -1,0 +1,17 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Improved Print Options for Purchase Orders",
+      "permalink": "/blog/2023/10/10/print-po-updates",
+      "unlisted": false,
+      "date": "2025-10-10T00:00:00.000Z"
+    },
+    {
+      "title": "Introducing SpaceLinx MES — Smart Manufacturing Execution System",
+      "permalink": "/blog/spacelinx-mes-introduction",
+      "unlisted": false,
+      "date": "2025-10-10T00:00:00.000Z"
+    }
+  ]
+}

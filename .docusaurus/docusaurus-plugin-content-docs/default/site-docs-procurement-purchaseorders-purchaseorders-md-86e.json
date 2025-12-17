@@ -1,0 +1,23 @@
+{
+  "id": "procurement/purchaseorders/purchaseorders",
+  "title": "Purchase Orders",
+  "description": "A Purchase Order (PO) is a formal document issued by a buyer to a vendor or supplier, specifying the products or services they wish to purchase. It acts as a legal offer to buy and helps track orders from creation to delivery.",
+  "source": "@site/docs/procurement/purchaseorders/purchaseorders.md",
+  "sourceDirName": "procurement/purchaseorders",
+  "slug": "/procurement/purchaseorders/",
+  "permalink": "/docs/procurement/purchaseorders/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Material Kit",
+    "permalink": "/docs/manufacturing/materialkits/newMaterialKit"
+  },
+  "next": {
+    "title": "Create New PO",
+    "permalink": "/docs/procurement/purchaseorders/newPurchaseOrder"
+  }
+}

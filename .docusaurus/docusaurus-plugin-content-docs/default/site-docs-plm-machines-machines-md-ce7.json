@@ -1,0 +1,27 @@
+{
+  "id": "plm/machines/machines",
+  "title": "Machines Module",
+  "description": "The Machines module in SpaceLinx MES is built to manage all production equipment and machinery within your manufacturing ecosystem. Machines are critical assets that require structured documentation, tracking, and categorization for seamless operations.",
+  "source": "@site/docs/plm/machines/machines.md",
+  "sourceDirName": "plm/machines",
+  "slug": "/plm/machines/",
+  "permalink": "/docs/plm/machines/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "machines",
+    "title": "Machines Module",
+    "sidebar_label": "Machines"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Tool",
+    "permalink": "/docs/plm/tools/newTool"
+  },
+  "next": {
+    "title": "Create Machine",
+    "permalink": "/docs/plm/machines/newMachine"
+  }
+}

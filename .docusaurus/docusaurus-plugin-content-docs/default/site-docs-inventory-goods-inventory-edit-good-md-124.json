@@ -1,0 +1,23 @@
+{
+  "id": "inventory/goodsInventory/editGood",
+  "title": "🧾 Edit Goods Inventory",
+  "description": "The Edit Goods Inventory page allows you to view and manage details of a specific goods item that already exists in your inventory.",
+  "source": "@site/docs/inventory/goodsInventory/editGood.md",
+  "sourceDirName": "inventory/goodsInventory",
+  "slug": "/inventory/goodsInventory/editGood",
+  "permalink": "/docs/inventory/goodsInventory/editGood",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Good",
+    "permalink": "/docs/inventory/goodsInventory/newGood"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/inventory/servicesInventory/"
+  }
+}

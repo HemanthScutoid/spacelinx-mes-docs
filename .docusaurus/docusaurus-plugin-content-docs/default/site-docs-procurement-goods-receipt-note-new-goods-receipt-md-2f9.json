@@ -1,0 +1,23 @@
+{
+  "id": "procurement/goodsReceiptNote/newGoodsReceipt",
+  "title": "Create Goods Receipt Note (New GRN)",
+  "description": "The New GRN form allows you to create a new Goods Receipt Note (GRN) based on purchase orders.",
+  "source": "@site/docs/procurement/goodsReceiptNote/newGoodsReceipt.md",
+  "sourceDirName": "procurement/goodsReceiptNote",
+  "slug": "/procurement/goodsReceiptNote/newGoodsReceipt",
+  "permalink": "/docs/procurement/goodsReceiptNote/newGoodsReceipt",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/goodsReceiptNote/goodsreceipts"
+  },
+  "next": {
+    "title": "Edit GRN",
+    "permalink": "/docs/procurement/goodsReceiptNote/editGoodsReceipt"
+  }
+}

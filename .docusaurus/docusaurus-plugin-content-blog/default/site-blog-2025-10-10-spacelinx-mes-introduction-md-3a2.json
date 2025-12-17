@@ -1,0 +1,47 @@
+{
+  "permalink": "/blog/spacelinx-mes-introduction",
+  "source": "@site/blog/2025-10-10-spacelinx-mes-introduction.md",
+  "title": "Introducing SpaceLinx MES — Smart Manufacturing Execution System",
+  "description": "SpaceLinx MES (Manufacturing Execution System) is an advanced digital platform designed to streamline aerospace and high-precision manufacturing workflows.",
+  "date": "2025-10-10T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "spacelinx",
+      "permalink": "/blog/tags/spacelinx"
+    },
+    {
+      "inline": true,
+      "label": "mes",
+      "permalink": "/blog/tags/mes"
+    },
+    {
+      "inline": true,
+      "label": "aerospace",
+      "permalink": "/blog/tags/aerospace"
+    },
+    {
+      "inline": true,
+      "label": "manufacturing",
+      "permalink": "/blog/tags/manufacturing"
+    }
+  ],
+  "readingTime": 1.34,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "spacelinx-mes-introduction",
+    "title": "Introducing SpaceLinx MES — Smart Manufacturing Execution System",
+    "tags": [
+      "spacelinx",
+      "mes",
+      "aerospace",
+      "manufacturing"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Improved Print Options for Purchase Orders",
+    "permalink": "/blog/2023/10/10/print-po-updates"
+  }
+}

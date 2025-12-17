@@ -1,0 +1,23 @@
+{
+  "id": "procurement/requisitions/newRequisition",
+  "title": "Create a New Requisition",
+  "description": "What is a Requisition?",
+  "source": "@site/docs/procurement/requisitions/newRequisition.md",
+  "sourceDirName": "procurement/requisitions",
+  "slug": "/procurement/requisitions/newRequisition",
+  "permalink": "/docs/procurement/requisitions/newRequisition",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/requisitions/"
+  },
+  "next": {
+    "title": "Edit Requisition",
+    "permalink": "/docs/procurement/requisitions/editRequisition"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "plm/parts/cloneBom",
+  "title": "📘 Clone BOM – User Guide",
+  "description": "The Clone BOM (Bill of Materials) feature allows you to duplicate the structure of an existing BOM (all the parts and assemblies it contains) to another part in your system. This is particularly useful when you have multiple similar products or assemblies and want to reuse an existing BOM without manually creating it again.",
+  "source": "@site/docs/plm/parts/cloneBom.md",
+  "sourceDirName": "plm/parts",
+  "slug": "/plm/parts/cloneBom",
+  "permalink": "/docs/plm/parts/cloneBom",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BOM",
+    "permalink": "/docs/plm/parts/bom"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/plm/eco/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/guides/guidedetails",
+  "title": "📘 Guide Details",
+  "description": "The Guide Details page gives a complete view of an individual guide.",
+  "source": "@site/docs/manufacturing/guides/guidedetails.md",
+  "sourceDirName": "manufacturing/guides",
+  "slug": "/manufacturing/guides/guidedetails",
+  "permalink": "/docs/manufacturing/guides/guidedetails",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/manufacturing/guides/"
+  },
+  "next": {
+    "title": "Create Guide",
+    "permalink": "/docs/manufacturing/guides/newGuide"
+  }
+}

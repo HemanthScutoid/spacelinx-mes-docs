@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/materialkits/materialkits",
+  "title": "Material Kits",
+  "description": "A Material Kit is a pre-packaged set of parts, tools, or components grouped together for a specific manufacturing task or work order.",
+  "source": "@site/docs/manufacturing/materialkits/materialkits.md",
+  "sourceDirName": "manufacturing/materialkits",
+  "slug": "/manufacturing/materialkits/",
+  "permalink": "/docs/manufacturing/materialkits/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Workorder",
+    "permalink": "/docs/manufacturing/workorders/newWorkOrder"
+  },
+  "next": {
+    "title": "Create Material Kit",
+    "permalink": "/docs/manufacturing/materialkits/newMaterialKit"
+  }
+}

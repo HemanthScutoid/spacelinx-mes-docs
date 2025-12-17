@@ -1,0 +1,23 @@
+{
+  "id": "plm/eco/newEco",
+  "title": "Create a New ECO",
+  "description": "The New ECO (Engineering Change Order) screen allows you to record changes to existing parts or assemblies. It ensures every modification is documented with proper reasoning, priority, and impact analysis.",
+  "source": "@site/docs/plm/eco/newEco.md",
+  "sourceDirName": "plm/eco",
+  "slug": "/plm/eco/newEco",
+  "permalink": "/docs/plm/eco/newEco",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/plm/eco/"
+  },
+  "next": {
+    "title": "Tools",
+    "permalink": "/docs/plm/tools/"
+  }
+}

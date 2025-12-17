@@ -1,0 +1,27 @@
+{
+  "id": "manufacturing/products/newProduct",
+  "title": "Create New Product",
+  "description": "The New Product page allows users to create a new product by linking it to an existing released part, associating it with a platform, adding a description, and optionally uploading an image.",
+  "source": "@site/docs/manufacturing/products/newProduct.md",
+  "sourceDirName": "manufacturing/products",
+  "slug": "/manufacturing/products/newProduct",
+  "permalink": "/docs/manufacturing/products/newProduct",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "newProduct",
+    "title": "Create New Product",
+    "sidebar_label": "New Product"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/manufacturing/products/"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/manufacturing/guides/"
+  }
+}

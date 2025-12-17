@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/materialkits/newMaterialKit",
+  "title": "📝 How to Create a New Material Kit",
+  "description": "The New Material Kit feature allows you to quickly create a kit by linking it to a part and location, specifying quantity, and optionally attaching an image.",
+  "source": "@site/docs/manufacturing/materialkits/newMaterialKit.md",
+  "sourceDirName": "manufacturing/materialkits",
+  "slug": "/manufacturing/materialkits/newMaterialKit",
+  "permalink": "/docs/manufacturing/materialkits/newMaterialKit",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Material Kits",
+    "permalink": "/docs/manufacturing/materialkits/"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/purchaseorders/"
+  }
+}

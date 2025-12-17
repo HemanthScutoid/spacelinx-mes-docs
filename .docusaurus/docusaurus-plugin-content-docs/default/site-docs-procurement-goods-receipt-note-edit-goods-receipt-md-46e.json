@@ -1,0 +1,23 @@
+{
+  "id": "procurement/goodsReceiptNote/editGoodsReceipt",
+  "title": "Editing a Goods Receipt Note (GRN)",
+  "description": "The Goods Receipt Note (GRN) is used to confirm the receipt of materials against a Purchase Order.",
+  "source": "@site/docs/procurement/goodsReceiptNote/editGoodsReceipt.md",
+  "sourceDirName": "procurement/goodsReceiptNote",
+  "slug": "/procurement/goodsReceiptNote/editGoodsReceipt",
+  "permalink": "/docs/procurement/goodsReceiptNote/editGoodsReceipt",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create GRN",
+    "permalink": "/docs/procurement/goodsReceiptNote/newGoodsReceipt"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/requisitions/"
+  }
+}

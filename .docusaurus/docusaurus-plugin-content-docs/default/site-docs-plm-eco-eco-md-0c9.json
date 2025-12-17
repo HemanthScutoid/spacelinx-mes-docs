@@ -1,0 +1,23 @@
+{
+  "id": "plm/eco/eco",
+  "title": "Engineering Change Order (ECO)",
+  "description": "An Engineering Change Order (ECO) is a formal document used to propose, review, and approve changes to a part, product design, or process.",
+  "source": "@site/docs/plm/eco/eco.md",
+  "sourceDirName": "plm/eco",
+  "slug": "/plm/eco/",
+  "permalink": "/docs/plm/eco/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Clone BOM",
+    "permalink": "/docs/plm/parts/cloneBom"
+  },
+  "next": {
+    "title": "Create ECO",
+    "permalink": "/docs/plm/eco/newEco"
+  }
+}

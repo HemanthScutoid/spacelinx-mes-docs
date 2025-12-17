@@ -1,0 +1,27 @@
+{
+  "id": "plm/tools/tools",
+  "title": "Tools Module",
+  "description": "The Tools module in SpaceLinx MES is designed to manage all equipment, instruments, and devices that are essential for manufacturing operations. Every tool used in production needs to be properly recorded, categorized, and tracked to ensure accuracy, availability, and compliance.",
+  "source": "@site/docs/plm/tools/tools.md",
+  "sourceDirName": "plm/tools",
+  "slug": "/plm/tools/",
+  "permalink": "/docs/plm/tools/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tools",
+    "title": "Tools Module",
+    "sidebar_label": "Tools"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create ECO",
+    "permalink": "/docs/plm/eco/newEco"
+  },
+  "next": {
+    "title": "Create Tool",
+    "permalink": "/docs/plm/tools/newTool"
+  }
+}

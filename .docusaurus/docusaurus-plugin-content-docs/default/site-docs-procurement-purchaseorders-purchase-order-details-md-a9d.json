@@ -1,0 +1,23 @@
+{
+  "id": "procurement/purchaseorders/purchaseOrderDetails",
+  "title": "Purchase Order Details",
+  "description": "The Purchase Order Details page allows you to view and manage a single purchase order (PO). Depending on your role and the PO status, you can perform actions such as editing, submitting, approving, rejecting, closing, or printing the PO.",
+  "source": "@site/docs/procurement/purchaseorders/purchaseOrderDetails.md",
+  "sourceDirName": "procurement/purchaseorders",
+  "slug": "/procurement/purchaseorders/purchaseOrderDetails",
+  "permalink": "/docs/procurement/purchaseorders/purchaseOrderDetails",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create New PO",
+    "permalink": "/docs/procurement/purchaseorders/newPurchaseOrder"
+  },
+  "next": {
+    "title": "PO Line Items",
+    "permalink": "/docs/procurement/purchaseorders/editPurchaseOrder"
+  }
+}

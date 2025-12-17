@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/workorders/newWorkOrder",
+  "title": "📘 Create work order",
+  "description": "The Create work order flyout allows users to create a new manufacturing/work order for a part or product.",
+  "source": "@site/docs/manufacturing/workorders/newWorkOrder.md",
+  "sourceDirName": "manufacturing/workorders",
+  "slug": "/manufacturing/workorders/newWorkOrder",
+  "permalink": "/docs/manufacturing/workorders/newWorkOrder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Work Order Steps",
+    "permalink": "/docs/manufacturing/workorders/workOrderSteps"
+  },
+  "next": {
+    "title": "Material Kits",
+    "permalink": "/docs/manufacturing/materialkits/"
+  }
+}

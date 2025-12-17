@@ -1,0 +1,23 @@
+{
+  "id": "inventory/servicesInventory/newService",
+  "title": "newService",
+  "description": "",
+  "source": "@site/docs/inventory/servicesInventory/newService.md",
+  "sourceDirName": "inventory/servicesInventory",
+  "slug": "/inventory/servicesInventory/newService",
+  "permalink": "/docs/inventory/servicesInventory/newService",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/inventory/servicesInventory/"
+  },
+  "next": {
+    "title": "Edit Service",
+    "permalink": "/docs/inventory/servicesInventory/editService"
+  }
+}

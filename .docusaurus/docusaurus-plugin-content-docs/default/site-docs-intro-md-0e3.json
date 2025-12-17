@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "SpaceLinx MES Documentation",
+  "description": "Welcome to the SpaceLinx MES (Manufacturing Execution System) documentation. This comprehensive system is designed for aerospace manufacturing and advanced production environments.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/plm/parts/"
+  }
+}

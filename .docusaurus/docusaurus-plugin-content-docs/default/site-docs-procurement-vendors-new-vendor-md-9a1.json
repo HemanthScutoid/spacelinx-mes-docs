@@ -1,0 +1,23 @@
+{
+  "id": "procurement/vendors/newVendor",
+  "title": "Create Company",
+  "description": "The Create Company page allows users to add new business entities such as Vendors, Customers, or Partners into the system.",
+  "source": "@site/docs/procurement/vendors/newVendor.md",
+  "sourceDirName": "procurement/vendors",
+  "slug": "/procurement/vendors/newVendor",
+  "permalink": "/docs/procurement/vendors/newVendor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/vendors/"
+  },
+  "next": {
+    "title": "Edit Vendor",
+    "permalink": "/docs/procurement/vendors/editVendor"
+  }
+}

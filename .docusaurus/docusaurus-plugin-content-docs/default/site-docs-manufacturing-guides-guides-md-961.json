@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/guides/guides",
+  "title": "📖 Guides Module – User Guide",
+  "description": "A Guide is a documented instruction, reference, or work procedure that helps teams follow standardized processes in manufacturing, assembly, or maintenance.",
+  "source": "@site/docs/manufacturing/guides/guides.md",
+  "sourceDirName": "manufacturing/guides",
+  "slug": "/manufacturing/guides/",
+  "permalink": "/docs/manufacturing/guides/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "New Product",
+    "permalink": "/docs/manufacturing/products/newProduct"
+  },
+  "next": {
+    "title": "Guide Details",
+    "permalink": "/docs/manufacturing/guides/guidedetails"
+  }
+}

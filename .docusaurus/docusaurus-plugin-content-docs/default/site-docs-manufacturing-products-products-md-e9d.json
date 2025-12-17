@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/products/products",
+  "title": "📦 Products Module – Overview",
+  "description": "The Products module in SpaceLinx MES is designed to act as the core hub for manufacturing execution.",
+  "source": "@site/docs/manufacturing/products/products.md",
+  "sourceDirName": "manufacturing/products",
+  "slug": "/manufacturing/products/",
+  "permalink": "/docs/manufacturing/products/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Machine",
+    "permalink": "/docs/plm/machines/newMachine"
+  },
+  "next": {
+    "title": "New Product",
+    "permalink": "/docs/manufacturing/products/newProduct"
+  }
+}

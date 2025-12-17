@@ -1,0 +1,23 @@
+{
+  "id": "plm/machines/newMachine",
+  "title": "🏭 Create Machine",
+  "description": "The Create Machine form allows users to add new machines into the system.",
+  "source": "@site/docs/plm/machines/newMachine.md",
+  "sourceDirName": "plm/machines",
+  "slug": "/plm/machines/newMachine",
+  "permalink": "/docs/plm/machines/newMachine",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Machines",
+    "permalink": "/docs/plm/machines/"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/manufacturing/products/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "plm/parts/parts",
+  "title": "📘 Parts Module – User Guide",
+  "description": "The Parts module helps you manage all the components, materials, and products used in your manufacturing process. From here, you can create, edit, organize, and track each part in your system.",
+  "source": "@site/docs/plm/parts/parts.md",
+  "sourceDirName": "plm/parts",
+  "slug": "/plm/parts/",
+  "permalink": "/docs/plm/parts/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Create Part",
+    "permalink": "/docs/plm/parts/newPart"
+  }
+}

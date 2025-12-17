@@ -1,0 +1,19 @@
+{
+  "id": "inventory/stockMovements",
+  "title": "stockMovements",
+  "description": "",
+  "source": "@site/docs/inventory/stockMovements.md",
+  "sourceDirName": "inventory",
+  "slug": "/inventory/stockMovements",
+  "permalink": "/docs/inventory/stockMovements",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edit Service",
+    "permalink": "/docs/inventory/servicesInventory/editService"
+  }
+}

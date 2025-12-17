@@ -1,0 +1,23 @@
+{
+  "id": "plm/tools/newTool",
+  "title": "🛠️ Create Tool",
+  "description": "The Create Tool form allows users to add a new tool into the system.",
+  "source": "@site/docs/plm/tools/newTool.md",
+  "sourceDirName": "plm/tools",
+  "slug": "/plm/tools/newTool",
+  "permalink": "/docs/plm/tools/newTool",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tools",
+    "permalink": "/docs/plm/tools/"
+  },
+  "next": {
+    "title": "Machines",
+    "permalink": "/docs/plm/machines/"
+  }
+}

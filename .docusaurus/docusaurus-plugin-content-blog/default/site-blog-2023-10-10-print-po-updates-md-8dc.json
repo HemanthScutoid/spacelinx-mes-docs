@@ -1,0 +1,49 @@
+{
+  "permalink": "/blog/2023/10/10/print-po-updates",
+  "source": "@site/blog/2023-10-10-print-po-updates.md",
+  "title": "Improved Print Options for Purchase Orders",
+  "description": "Easily customize your printed Purchase Orders with new options.",
+  "date": "2025-10-10T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "PO",
+      "permalink": "/blog/tags/po"
+    },
+    {
+      "inline": true,
+      "label": "Print",
+      "permalink": "/blog/tags/print"
+    },
+    {
+      "inline": true,
+      "label": "Updates",
+      "permalink": "/blog/tags/updates"
+    }
+  ],
+  "readingTime": 1.08,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sainath",
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Improved Print Options for Purchase Orders",
+    "author": "Sainath",
+    "date": "2025-10-10T00:00:00.000Z",
+    "description": "Easily customize your printed Purchase Orders with new options.",
+    "tags": [
+      "PO",
+      "Print",
+      "Updates"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Introducing SpaceLinx MES — Smart Manufacturing Execution System",
+    "permalink": "/blog/spacelinx-mes-introduction"
+  }
+}

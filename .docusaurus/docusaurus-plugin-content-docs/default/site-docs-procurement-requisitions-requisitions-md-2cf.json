@@ -1,0 +1,23 @@
+{
+  "id": "procurement/requisitions/requisitions",
+  "title": "Requisitions – Requesting Materials or Services",
+  "description": "What is a Requisition?",
+  "source": "@site/docs/procurement/requisitions/requisitions.md",
+  "sourceDirName": "procurement/requisitions",
+  "slug": "/procurement/requisitions/",
+  "permalink": "/docs/procurement/requisitions/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edit GRN",
+    "permalink": "/docs/procurement/goodsReceiptNote/editGoodsReceipt"
+  },
+  "next": {
+    "title": "Create Requisition",
+    "permalink": "/docs/procurement/requisitions/newRequisition"
+  }
+}

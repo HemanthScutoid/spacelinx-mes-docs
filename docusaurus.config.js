@@ -1,0 +1,135 @@
+// @ts-check
+
+import { themes as prismThemes } from "prism-react-renderer";
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: "SpaceLinx MES",
+  tagline: "Smart Manufacturing Execution System for Aerospace & Beyond",
+  favicon: "img/spacelinx-icon.png",
+
+  future: {
+    v4: true,
+  },
+
+  url: "https://your-spacelinx-site.example.com",
+  baseUrl: "/",
+
+  organizationName: "spacelinx",
+  projectName: "mes-docs",
+
+  // Warn for broken links instead of throwing (faster build)
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
+
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+  },
+
+  // Webpack optimizations removed - esbuild-loader not installed
+
+  presets: [
+    [
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/docs",
+
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
+          includeCurrentVersion: true,
+
+          editUrl: undefined,
+        },
+        pages: {
+          path: "src/pages",
+          routeBasePath: "/",
+
+          include: ["**/*.js", "**/*.jsx"],
+        },
+        blog: {
+          showReadingTime: true,
+          routeBasePath: "/blog",
+          blogTitle: "SpaceLinx Blog",
+          blogDescription:
+            "Updates, insights, and release notes for SpaceLinx MES",
+          postsPerPage: 5,
+          feedOptions: {
+            type: "all",
+            title: "SpaceLinx MES Blog",
+            description: "Latest updates and insights from SpaceLinx MES",
+          },
+        },
+
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
+      }),
+    ],
+  ],
+
+  // Add client modules optimization
+  clientModules: [],
+
+  themeConfig: {
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+    navbar: {
+      hideOnScroll: false,
+      items: [
+        {
+          to: "/",
+          label: "Home",
+          position: "left",
+          activeBaseRegex: "^/$",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Docs",
+        },
+        // {
+        //   to: "/blog",
+        //   label: "Blog",
+        //   position: "left",
+        // },
+      ],
+    },
+
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Modules",
+          items: [
+            { label: "PLM", to: "/docs/plm/parts" },
+            { label: "Manufacturing", to: "/docs/manufacturing/products" },
+            { label: "Procurement", to: "/docs/procurement/purchaseorders" },
+            { label: "Inventory", to: "/docs/inventory/partsInventory" },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} XDLINX SPACE LABS. All rights reserved.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  },
+};
+
+export default config;

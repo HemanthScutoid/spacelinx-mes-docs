@@ -1,0 +1,23 @@
+{
+  "id": "inventory/servicesInventory/editService",
+  "title": "editService",
+  "description": "",
+  "source": "@site/docs/inventory/servicesInventory/editService.md",
+  "sourceDirName": "inventory/servicesInventory",
+  "slug": "/inventory/servicesInventory/editService",
+  "permalink": "/docs/inventory/servicesInventory/editService",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Service",
+    "permalink": "/docs/inventory/servicesInventory/newService"
+  },
+  "next": {
+    "title": "Stock Movements",
+    "permalink": "/docs/inventory/stockMovements"
+  }
+}

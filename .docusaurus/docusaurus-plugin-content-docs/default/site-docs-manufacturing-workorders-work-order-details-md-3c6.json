@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/workorders/workOrderDetails",
+  "title": "📋 Work Order Details",
+  "description": "Once you select a Work Order from the list, you will be taken to the Work Order Details page.",
+  "source": "@site/docs/manufacturing/workorders/workOrderDetails.md",
+  "sourceDirName": "manufacturing/workorders",
+  "slug": "/manufacturing/workorders/workOrderDetails",
+  "permalink": "/docs/manufacturing/workorders/workOrderDetails",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/manufacturing/workorders/"
+  },
+  "next": {
+    "title": "Work Order Steps",
+    "permalink": "/docs/manufacturing/workorders/workOrderSteps"
+  }
+}

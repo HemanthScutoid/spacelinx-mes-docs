@@ -1,0 +1,23 @@
+{
+  "id": "procurement/purchaseorders/editPurchaseOrder",
+  "title": "Purchase Order – Line Items",
+  "description": "The Line Items section is where you define the materials or services being purchased in a Purchase Order (PO). It includes controls for adding new items, applying discounts, setting tax options, selecting a currency, and reviewing the cost summary.",
+  "source": "@site/docs/procurement/purchaseorders/editPurchaseOrder.md",
+  "sourceDirName": "procurement/purchaseorders",
+  "slug": "/procurement/purchaseorders/editPurchaseOrder",
+  "permalink": "/docs/procurement/purchaseorders/editPurchaseOrder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PO Details",
+    "permalink": "/docs/procurement/purchaseorders/purchaseOrderDetails"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/goodsReceiptNote/goodsreceipts"
+  }
+}

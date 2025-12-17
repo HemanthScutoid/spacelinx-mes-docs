@@ -1,0 +1,23 @@
+{
+  "id": "inventory/goodsInventory/newGood",
+  "title": "🧾 Create New Goods Inventory",
+  "description": "The Create Goods Inventory page allows you to add a new goods item to your inventory list.",
+  "source": "@site/docs/inventory/goodsInventory/newGood.md",
+  "sourceDirName": "inventory/goodsInventory",
+  "slug": "/inventory/goodsInventory/newGood",
+  "permalink": "/docs/inventory/goodsInventory/newGood",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/inventory/goodsInventory/"
+  },
+  "next": {
+    "title": "Edit Good",
+    "permalink": "/docs/inventory/goodsInventory/editGood"
+  }
+}

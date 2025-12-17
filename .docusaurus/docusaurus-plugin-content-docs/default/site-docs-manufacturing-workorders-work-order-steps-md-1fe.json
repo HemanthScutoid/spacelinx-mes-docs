@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/workorders/workOrderSteps",
+  "title": "Work Order Steps",
+  "description": "The Work Order Step page gives you a complete view of a specific Work Order, including its steps, progress, timing, materials, and BOM (Bill of Materials).",
+  "source": "@site/docs/manufacturing/workorders/workOrderSteps.md",
+  "sourceDirName": "manufacturing/workorders",
+  "slug": "/manufacturing/workorders/workOrderSteps",
+  "permalink": "/docs/manufacturing/workorders/workOrderSteps",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Work Order Details",
+    "permalink": "/docs/manufacturing/workorders/workOrderDetails"
+  },
+  "next": {
+    "title": "Create Workorder",
+    "permalink": "/docs/manufacturing/workorders/newWorkOrder"
+  }
+}

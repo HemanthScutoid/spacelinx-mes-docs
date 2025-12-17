@@ -1,0 +1,23 @@
+{
+  "id": "procurement/requisitions/editRequisition",
+  "title": "Edit Requisition Page",
+  "description": "Overview",
+  "source": "@site/docs/procurement/requisitions/editRequisition.md",
+  "sourceDirName": "procurement/requisitions",
+  "slug": "/procurement/requisitions/editRequisition",
+  "permalink": "/docs/procurement/requisitions/editRequisition",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Requisition",
+    "permalink": "/docs/procurement/requisitions/newRequisition"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/vendors/"
+  }
+}

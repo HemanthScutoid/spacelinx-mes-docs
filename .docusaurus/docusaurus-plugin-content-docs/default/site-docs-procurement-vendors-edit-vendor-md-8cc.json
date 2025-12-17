@@ -1,0 +1,23 @@
+{
+  "id": "procurement/vendors/editVendor",
+  "title": "🏢 Edit Company",
+  "description": "The Edit Company page allows users to view and update existing company information, such as vendor or customer details, contact information, payment terms, and more.",
+  "source": "@site/docs/procurement/vendors/editVendor.md",
+  "sourceDirName": "procurement/vendors",
+  "slug": "/procurement/vendors/editVendor",
+  "permalink": "/docs/procurement/vendors/editVendor",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Vendor",
+    "permalink": "/docs/procurement/vendors/newVendor"
+  },
+  "next": {
+    "title": "Parts",
+    "permalink": "/docs/inventory/partsInventory"
+  }
+}

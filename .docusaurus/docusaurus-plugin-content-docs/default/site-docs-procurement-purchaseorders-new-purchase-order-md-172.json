@@ -1,0 +1,23 @@
+{
+  "id": "procurement/purchaseorders/newPurchaseOrder",
+  "title": "Create Purchase Order",
+  "description": "The Create Purchase Order screen allows you to raise a new purchase order by filling in vendor, project, billing, shipping, and item details.",
+  "source": "@site/docs/procurement/purchaseorders/newPurchaseOrder.md",
+  "sourceDirName": "procurement/purchaseorders",
+  "slug": "/procurement/purchaseorders/newPurchaseOrder",
+  "permalink": "/docs/procurement/purchaseorders/newPurchaseOrder",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/procurement/purchaseorders/"
+  },
+  "next": {
+    "title": "PO Details",
+    "permalink": "/docs/procurement/purchaseorders/purchaseOrderDetails"
+  }
+}

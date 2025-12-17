@@ -1,0 +1,23 @@
+{
+  "id": "procurement/vendors/vendors",
+  "title": "Vendors",
+  "description": "The Vendors page allows you to manage all the suppliers your organization works with.",
+  "source": "@site/docs/procurement/vendors/vendors.md",
+  "sourceDirName": "procurement/vendors",
+  "slug": "/procurement/vendors/",
+  "permalink": "/docs/procurement/vendors/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edit Requisition",
+    "permalink": "/docs/procurement/requisitions/editRequisition"
+  },
+  "next": {
+    "title": "Create Vendor",
+    "permalink": "/docs/procurement/vendors/newVendor"
+  }
+}

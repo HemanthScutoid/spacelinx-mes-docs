@@ -1,0 +1,23 @@
+{
+  "id": "inventory/partsInventory",
+  "title": "⚙️ Parts Inventory",
+  "description": "The Parts Inventory page helps you track and manage the physical stock of each part across multiple locations and bins.",
+  "source": "@site/docs/inventory/partsInventory.md",
+  "sourceDirName": "inventory",
+  "slug": "/inventory/partsInventory",
+  "permalink": "/docs/inventory/partsInventory",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edit Vendor",
+    "permalink": "/docs/procurement/vendors/editVendor"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/inventory/goodsInventory/"
+  }
+}

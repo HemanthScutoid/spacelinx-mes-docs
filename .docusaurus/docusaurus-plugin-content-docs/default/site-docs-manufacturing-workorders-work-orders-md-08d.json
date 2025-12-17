@@ -1,0 +1,23 @@
+{
+  "id": "manufacturing/workorders/workOrders",
+  "title": "📑 Work Orders",
+  "description": "A Work Order (WO) is a formal document that specifies tasks, operations, or production activities to be performed in a manufacturing process.",
+  "source": "@site/docs/manufacturing/workorders/workOrders.md",
+  "sourceDirName": "manufacturing/workorders",
+  "slug": "/manufacturing/workorders/",
+  "permalink": "/docs/manufacturing/workorders/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Guide",
+    "permalink": "/docs/manufacturing/guides/newGuide"
+  },
+  "next": {
+    "title": "Work Order Details",
+    "permalink": "/docs/manufacturing/workorders/workOrderDetails"
+  }
+}

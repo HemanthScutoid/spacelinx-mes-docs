@@ -1,0 +1,23 @@
+{
+  "id": "procurement/goodsReceiptNote/goodsreceipts",
+  "title": "Goods Receipts – Overview",
+  "description": "The Goods Receipts (GRN) page allows you to view, create, and manage goods receipt notes that record materials received against purchase orders.",
+  "source": "@site/docs/procurement/goodsReceiptNote/goodsreceipts.md",
+  "sourceDirName": "procurement/goodsReceiptNote",
+  "slug": "/procurement/goodsReceiptNote/goodsreceipts",
+  "permalink": "/docs/procurement/goodsReceiptNote/goodsreceipts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PO Line Items",
+    "permalink": "/docs/procurement/purchaseorders/editPurchaseOrder"
+  },
+  "next": {
+    "title": "Create GRN",
+    "permalink": "/docs/procurement/goodsReceiptNote/newGoodsReceipt"
+  }
+}

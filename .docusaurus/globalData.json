@@ -1,0 +1,288 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "home",
+              "path": "/docs/home"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/goodsInventory/editGood",
+              "path": "/docs/inventory/goodsInventory/editGood",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/goodsInventory/goodsInventory",
+              "path": "/docs/inventory/goodsInventory/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/goodsInventory/newGood",
+              "path": "/docs/inventory/goodsInventory/newGood",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/partsInventory",
+              "path": "/docs/inventory/partsInventory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/servicesInventory/editService",
+              "path": "/docs/inventory/servicesInventory/editService",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/servicesInventory/newService",
+              "path": "/docs/inventory/servicesInventory/newService",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/servicesInventory/servicesInventory",
+              "path": "/docs/inventory/servicesInventory/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inventory/stockMovements",
+              "path": "/docs/inventory/stockMovements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/guides/guidedetails",
+              "path": "/docs/manufacturing/guides/guidedetails",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/guides/guides",
+              "path": "/docs/manufacturing/guides/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/guides/newGuide",
+              "path": "/docs/manufacturing/guides/newGuide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/materialkits/materialkits",
+              "path": "/docs/manufacturing/materialkits/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/materialkits/newMaterialKit",
+              "path": "/docs/manufacturing/materialkits/newMaterialKit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/products/newProduct",
+              "path": "/docs/manufacturing/products/newProduct",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/products/products",
+              "path": "/docs/manufacturing/products/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/workorders/newWorkOrder",
+              "path": "/docs/manufacturing/workorders/newWorkOrder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/workorders/workOrderDetails",
+              "path": "/docs/manufacturing/workorders/workOrderDetails",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/workorders/workOrders",
+              "path": "/docs/manufacturing/workorders/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manufacturing/workorders/workOrderSteps",
+              "path": "/docs/manufacturing/workorders/workOrderSteps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/eco/eco",
+              "path": "/docs/plm/eco/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/eco/newEco",
+              "path": "/docs/plm/eco/newEco",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/machines/machines",
+              "path": "/docs/plm/machines/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/machines/newMachine",
+              "path": "/docs/plm/machines/newMachine",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/parts/bom",
+              "path": "/docs/plm/parts/bom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/parts/cloneBom",
+              "path": "/docs/plm/parts/cloneBom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/parts/editPart",
+              "path": "/docs/plm/parts/editPart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/parts/newPart",
+              "path": "/docs/plm/parts/newPart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/parts/parts",
+              "path": "/docs/plm/parts/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/tools/newTool",
+              "path": "/docs/plm/tools/newTool",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plm/tools/tools",
+              "path": "/docs/plm/tools/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/goodsReceiptNote/editGoodsReceipt",
+              "path": "/docs/procurement/goodsReceiptNote/editGoodsReceipt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/goodsReceiptNote/goodsreceipts",
+              "path": "/docs/procurement/goodsReceiptNote/goodsreceipts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/goodsReceiptNote/newGoodsReceipt",
+              "path": "/docs/procurement/goodsReceiptNote/newGoodsReceipt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/purchaseorders/editPurchaseOrder",
+              "path": "/docs/procurement/purchaseorders/editPurchaseOrder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/purchaseorders/newPurchaseOrder",
+              "path": "/docs/procurement/purchaseorders/newPurchaseOrder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/purchaseorders/purchaseOrderDetails",
+              "path": "/docs/procurement/purchaseorders/purchaseOrderDetails",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/purchaseorders/purchaseorders",
+              "path": "/docs/procurement/purchaseorders/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/requisitions/editRequisition",
+              "path": "/docs/procurement/requisitions/editRequisition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/requisitions/newRequisition",
+              "path": "/docs/procurement/requisitions/newRequisition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/requisitions/requisitions",
+              "path": "/docs/procurement/requisitions/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/vendors/editVendor",
+              "path": "/docs/procurement/vendors/editVendor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/vendors/newVendor",
+              "path": "/docs/procurement/vendors/newVendor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "procurement/vendors/vendors",
+              "path": "/docs/procurement/vendors/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "spacelinx-mes",
+              "path": "/docs/spacelinx-mes"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
